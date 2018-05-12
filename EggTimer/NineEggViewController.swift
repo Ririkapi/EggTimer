@@ -81,11 +81,17 @@ class NineEggViewController: UIViewController {
                 self.audioPlayer.stop()
             }
             
+            
+            
             alert.addAction(okAction)
             present(alert, animated: true, completion: nil)
             setAudioPlayer(soundName: "目覚ましアラーム", type: "mp3")
             audioPlayer.play()
            
+        }
+        let img14 = UIImage(named:"14egg.png")!
+        if self.lbTimer.text == "00:50"{
+            imageView.image = img14
         }
     }
 

@@ -49,6 +49,7 @@
 		F01258D620A33F190088D41C /* CarrotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01258D520A33F190088D41C /* CarrotViewController.swift */; };
 		F01258D820A3400E0088D41C /* Carrot1.png in Resources */ = {isa = PBXBuildFile; fileRef = F01258D720A3400E0088D41C /* Carrot1.png */; };
 		F01258DC20A349B80088D41C /* Pasta1.png in Resources */ = {isa = PBXBuildFile; fileRef = F01258DB20A349B80088D41C /* Pasta1.png */; };
+		F0A373DE20A6D79700D89876 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A373DD20A6D79700D89876 /* UserNotifications.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +99,7 @@
 		F01258D520A33F190088D41C /* CarrotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotViewController.swift; sourceTree = "<group>"; };
 		F01258D720A3400E0088D41C /* Carrot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Carrot1.png; sourceTree = "<group>"; };
 		F01258DB20A349B80088D41C /* Pasta1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pasta1.png; sourceTree = "<group>"; };
+		F0A373DD20A6D79700D89876 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0A373DE20A6D79700D89876 /* UserNotifications.framework in Frameworks */,
 				E9F7CA00C0683AEC4AB24F82 /* Pods_EggTimer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -124,6 +127,7 @@
 		6157FF4685A9133A0326559B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F0A373DD20A6D79700D89876 /* UserNotifications.framework */,
 				1C2BC84A9D135B55949CBF3F /* Pods_EggTimer.framework */,
 			);
 			name = Frameworks;

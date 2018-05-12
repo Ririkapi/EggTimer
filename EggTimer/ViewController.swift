@@ -7,7 +7,27 @@
 //
 
 import UIKit
-
+import UserNotifications
+if #available(iOS 10.0, *) {
+    // iOS 10
+    let center = UNUserNotificationCenter.current()
+    center.requestAuthorization([.badge, .sound, .alert], completionHandler: { (granted, error) in
+        if error != nil {
+            return
+        }
+        
+        if granted {
+            debugPrint("通知許可")
+        } else {
+            debugPrint("通知拒否")
+        }
+    })
+    
+} else {
+    // iOS 9
+    let settings = UIUserNotificationSettings(types: [.badge, .sound, .alert], categories: nil)
+    UIApplication.shared().registerUserNotificationSettings(settings)
+}
 
 class ViewController: UIViewController {
     
