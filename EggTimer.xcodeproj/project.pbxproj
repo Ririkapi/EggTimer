@@ -7,14 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9F7CA00C0683AEC4AB24F82 /* Pods_EggTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C2BC84A9D135B55949CBF3F /* Pods_EggTimer.framework */; };
 		F0087AFA208DFCF400AA726A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0087AF9208DFCF400AA726A /* AppDelegate.swift */; };
 		F0087AFC208DFCF400AA726A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0087AFB208DFCF400AA726A /* ViewController.swift */; };
 		F0087AFF208DFCF400AA726A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0087AFD208DFCF400AA726A /* Main.storyboard */; };
 		F0087B01208DFCF400AA726A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0087B00208DFCF400AA726A /* Assets.xcassets */; };
 		F0087B04208DFCF400AA726A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0087B02208DFCF400AA726A /* LaunchScreen.storyboard */; };
+		F0087B2E20921A1600AA726A /* 12egg.png in Resources */ = {isa = PBXBuildFile; fileRef = F0087B2B20921A1600AA726A /* 12egg.png */; };
+		F0087B2F20921A1600AA726A /* 9egg.png in Resources */ = {isa = PBXBuildFile; fileRef = F0087B2C20921A1600AA726A /* 9egg.png */; };
+		F0087B3020921A1600AA726A /* 14egg.png in Resources */ = {isa = PBXBuildFile; fileRef = F0087B2D20921A1600AA726A /* 14egg.png */; };
+		F0087B3820921EF700AA726A /* EggViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0087B3720921EF700AA726A /* EggViewController.swift */; };
+		F0087B3C2092218A00AA726A /* startegg.png in Resources */ = {isa = PBXBuildFile; fileRef = F0087B3B2092218900AA726A /* startegg.png */; };
+		F00A8C7620A5EF6000226C7A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F00A8C7520A5EF5F00226C7A /* icon.png */; };
+		F00A8C7820A5F04900226C7A /* BroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00A8C7720A5F04900226C7A /* BroViewController.swift */; };
+		F00A8C7A20A5F1D000226C7A /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00A8C7920A5F1D000226C7A /* TimerViewController.swift */; };
+		F00F8EC920A40D08001BEE4E /* fuji.png in Resources */ = {isa = PBXBuildFile; fileRef = F00F8EC820A40D08001BEE4E /* fuji.png */; };
+		F00F8ECB20A40D80001BEE4E /* far.png in Resources */ = {isa = PBXBuildFile; fileRef = F00F8ECA20A40D80001BEE4E /* far.png */; };
+		F00F8ECD20A40FCD001BEE4E /* penne.png in Resources */ = {isa = PBXBuildFile; fileRef = F00F8ECC20A40FCD001BEE4E /* penne.png */; };
+		F00F8ED120A41135001BEE4E /* 2penne.png in Resources */ = {isa = PBXBuildFile; fileRef = F00F8ED020A41134001BEE4E /* 2penne.png */; };
+		F00F8ED320A47773001BEE4E /* potato1.png in Resources */ = {isa = PBXBuildFile; fileRef = F00F8ED220A47773001BEE4E /* potato1.png */; };
+		F00F8ED520A47B66001BEE4E /* PotatoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00F8ED420A47B66001BEE4E /* PotatoViewController.swift */; };
+		F00F8ED720A47D48001BEE4E /* maru.png in Resources */ = {isa = PBXBuildFile; fileRef = F00F8ED620A47D48001BEE4E /* maru.png */; };
+		F00F8ED920A52654001BEE4E /* blur.png in Resources */ = {isa = PBXBuildFile; fileRef = F00F8ED820A52653001BEE4E /* blur.png */; };
+		F012578B209424F30088D41C /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012578A209424F30088D41C /* FoodViewController.swift */; };
+		F012579320943FB30088D41C /* NineEggViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012579220943FB30088D41C /* NineEggViewController.swift */; };
+		F012579520943FE50088D41C /* TwelveEggViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012579420943FE50088D41C /* TwelveEggViewController.swift */; };
+		F012579720943FFD0088D41C /* FourteenEggViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012579620943FFD0088D41C /* FourteenEggViewController.swift */; };
+		F01257A1209457EA0088D41C /* Allura-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F01257A0209457EA0088D41C /* Allura-Regular.otf */; };
+		F01257A7209AB18A0088D41C /* PastaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01257A6209AB18A0088D41C /* PastaViewController.swift */; };
+		F01257A9209AB5CE0088D41C /* FedeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01257A8209AB5CE0088D41C /* FedeViewController.swift */; };
+		F01257AB209AB5F20088D41C /* SpaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01257AA209AB5F20088D41C /* SpaViewController.swift */; };
+		F01257AD209AB6240088D41C /* SpatwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01257AC209AB6240088D41C /* SpatwoViewController.swift */; };
+		F01257AF209ABAB50088D41C /* PennneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01257AE209ABAB50088D41C /* PennneViewController.swift */; };
+		F01257B1209ABAD10088D41C /* FarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01257B0209ABAD10088D41C /* FarViewController.swift */; };
+		F01257B3209ABAEF0088D41C /* FujiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01257B2209ABAEF0088D41C /* FujiViewController.swift */; };
+		F01257B5209ABCC20088D41C /* EchinosParkScript_PERSONAL_USE_ONLY.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F01257B4209ABCC10088D41C /* EchinosParkScript_PERSONAL_USE_ONLY.ttf */; };
+		F01257B7209ABCFC0088D41C /* Apples Script Demo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F01257B6209ABCFB0088D41C /* Apples Script Demo.ttf */; };
+		F01257B9209ABDBF0088D41C /* Magnolia Script.otf in Resources */ = {isa = PBXBuildFile; fileRef = F01257B8209ABDBE0088D41C /* Magnolia Script.otf */; };
+		F01258A620A1EE910088D41C /* ミートソースパスタ.png in Resources */ = {isa = PBXBuildFile; fileRef = F01258A520A1EE900088D41C /* ミートソースパスタ.png */; };
+		F01258D020A32D060088D41C /* 目覚ましアラーム.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F01258CF20A32D060088D41C /* 目覚ましアラーム.mp3 */; };
+		F01258D620A33F190088D41C /* CarrotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01258D520A33F190088D41C /* CarrotViewController.swift */; };
+		F01258D820A3400E0088D41C /* Carrot1.png in Resources */ = {isa = PBXBuildFile; fileRef = F01258D720A3400E0088D41C /* Carrot1.png */; };
+		F01258DC20A349B80088D41C /* Pasta1.png in Resources */ = {isa = PBXBuildFile; fileRef = F01258DB20A349B80088D41C /* Pasta1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C2BC84A9D135B55949CBF3F /* Pods_EggTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EggTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B339DA67FA49209C1E1D251 /* Pods-EggTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EggTimer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EggTimer/Pods-EggTimer.debug.xcconfig"; sourceTree = "<group>"; };
+		B06681AA802D3870A75BA635 /* Pods-EggTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EggTimer.release.xcconfig"; path = "Pods/Target Support Files/Pods-EggTimer/Pods-EggTimer.release.xcconfig"; sourceTree = "<group>"; };
 		F0087AF6208DFCF400AA726A /* EggTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0087AF9208DFCF400AA726A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0087AFB208DFCF400AA726A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +62,42 @@
 		F0087B00208DFCF400AA726A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0087B03208DFCF400AA726A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0087B05208DFCF400AA726A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0087B2B20921A1600AA726A /* 12egg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12egg.png; sourceTree = "<group>"; };
+		F0087B2C20921A1600AA726A /* 9egg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9egg.png; sourceTree = "<group>"; };
+		F0087B2D20921A1600AA726A /* 14egg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 14egg.png; sourceTree = "<group>"; };
+		F0087B3720921EF700AA726A /* EggViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggViewController.swift; sourceTree = "<group>"; };
+		F0087B3B2092218900AA726A /* startegg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startegg.png; sourceTree = "<group>"; };
+		F00A8C7520A5EF5F00226C7A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F00A8C7720A5F04900226C7A /* BroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroViewController.swift; sourceTree = "<group>"; };
+		F00A8C7920A5F1D000226C7A /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		F00F8EC820A40D08001BEE4E /* fuji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fuji.png; sourceTree = "<group>"; };
+		F00F8ECA20A40D80001BEE4E /* far.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = far.png; sourceTree = "<group>"; };
+		F00F8ECC20A40FCD001BEE4E /* penne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = penne.png; path = ../../../Downloads/penne.png; sourceTree = "<group>"; };
+		F00F8ED020A41134001BEE4E /* 2penne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2penne.png; sourceTree = "<group>"; };
+		F00F8ED220A47773001BEE4E /* potato1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = potato1.png; sourceTree = "<group>"; };
+		F00F8ED420A47B66001BEE4E /* PotatoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotatoViewController.swift; sourceTree = "<group>"; };
+		F00F8ED620A47D48001BEE4E /* maru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maru.png; sourceTree = "<group>"; };
+		F00F8ED820A52653001BEE4E /* blur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blur.png; sourceTree = "<group>"; };
+		F012578A209424F30088D41C /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		F012579220943FB30088D41C /* NineEggViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NineEggViewController.swift; sourceTree = "<group>"; };
+		F012579420943FE50088D41C /* TwelveEggViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwelveEggViewController.swift; sourceTree = "<group>"; };
+		F012579620943FFD0088D41C /* FourteenEggViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourteenEggViewController.swift; sourceTree = "<group>"; };
+		F01257A0209457EA0088D41C /* Allura-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Allura-Regular.otf"; sourceTree = "<group>"; };
+		F01257A6209AB18A0088D41C /* PastaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastaViewController.swift; sourceTree = "<group>"; };
+		F01257A8209AB5CE0088D41C /* FedeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FedeViewController.swift; sourceTree = "<group>"; };
+		F01257AA209AB5F20088D41C /* SpaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaViewController.swift; sourceTree = "<group>"; };
+		F01257AC209AB6240088D41C /* SpatwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatwoViewController.swift; sourceTree = "<group>"; };
+		F01257AE209ABAB50088D41C /* PennneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennneViewController.swift; sourceTree = "<group>"; };
+		F01257B0209ABAD10088D41C /* FarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarViewController.swift; sourceTree = "<group>"; };
+		F01257B2209ABAEF0088D41C /* FujiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FujiViewController.swift; sourceTree = "<group>"; };
+		F01257B4209ABCC10088D41C /* EchinosParkScript_PERSONAL_USE_ONLY.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EchinosParkScript_PERSONAL_USE_ONLY.ttf; sourceTree = "<group>"; };
+		F01257B6209ABCFB0088D41C /* Apples Script Demo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apples Script Demo.ttf"; sourceTree = "<group>"; };
+		F01257B8209ABDBE0088D41C /* Magnolia Script.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Magnolia Script.otf"; sourceTree = "<group>"; };
+		F01258A520A1EE900088D41C /* ミートソースパスタ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ミートソースパスタ.png"; sourceTree = "<group>"; };
+		F01258CF20A32D060088D41C /* 目覚ましアラーム.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "目覚ましアラーム.mp3"; path = "../../../Downloads/目覚ましアラーム.mp3"; sourceTree = "<group>"; };
+		F01258D520A33F190088D41C /* CarrotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotViewController.swift; sourceTree = "<group>"; };
+		F01258D720A3400E0088D41C /* Carrot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Carrot1.png; sourceTree = "<group>"; };
+		F01258DB20A349B80088D41C /* Pasta1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pasta1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +105,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9F7CA00C0683AEC4AB24F82 /* Pods_EggTimer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DB279DCE184547310AA7D62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B339DA67FA49209C1E1D251 /* Pods-EggTimer.debug.xcconfig */,
+				B06681AA802D3870A75BA635 /* Pods-EggTimer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6157FF4685A9133A0326559B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C2BC84A9D135B55949CBF3F /* Pods_EggTimer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F0087AED208DFCF400AA726A = {
 			isa = PBXGroup;
 			children = (
 				F0087AF8208DFCF400AA726A /* EggTimer */,
 				F0087AF7208DFCF400AA726A /* Products */,
+				2DB279DCE184547310AA7D62 /* Pods */,
+				6157FF4685A9133A0326559B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +150,48 @@
 		F0087AF8208DFCF400AA726A /* EggTimer */ = {
 			isa = PBXGroup;
 			children = (
+				F01258CF20A32D060088D41C /* 目覚ましアラーム.mp3 */,
+				F01258A520A1EE900088D41C /* ミートソースパスタ.png */,
+				F01257B8209ABDBE0088D41C /* Magnolia Script.otf */,
+				F01257B6209ABCFB0088D41C /* Apples Script Demo.ttf */,
+				F01257B4209ABCC10088D41C /* EchinosParkScript_PERSONAL_USE_ONLY.ttf */,
+				F01257A0209457EA0088D41C /* Allura-Regular.otf */,
+				F0087B3B2092218900AA726A /* startegg.png */,
+				F0087B2C20921A1600AA726A /* 9egg.png */,
+				F0087B2B20921A1600AA726A /* 12egg.png */,
+				F0087B2D20921A1600AA726A /* 14egg.png */,
 				F0087AF9208DFCF400AA726A /* AppDelegate.swift */,
 				F0087AFB208DFCF400AA726A /* ViewController.swift */,
+				F012578A209424F30088D41C /* FoodViewController.swift */,
 				F0087AFD208DFCF400AA726A /* Main.storyboard */,
+				F00A8C7520A5EF5F00226C7A /* icon.png */,
 				F0087B00208DFCF400AA726A /* Assets.xcassets */,
 				F0087B02208DFCF400AA726A /* LaunchScreen.storyboard */,
 				F0087B05208DFCF400AA726A /* Info.plist */,
+				F0087B3720921EF700AA726A /* EggViewController.swift */,
+				F012579220943FB30088D41C /* NineEggViewController.swift */,
+				F012579420943FE50088D41C /* TwelveEggViewController.swift */,
+				F012579620943FFD0088D41C /* FourteenEggViewController.swift */,
+				F01257A6209AB18A0088D41C /* PastaViewController.swift */,
+				F01257A8209AB5CE0088D41C /* FedeViewController.swift */,
+				F01257AA209AB5F20088D41C /* SpaViewController.swift */,
+				F01257AC209AB6240088D41C /* SpatwoViewController.swift */,
+				F01257AE209ABAB50088D41C /* PennneViewController.swift */,
+				F01257B0209ABAD10088D41C /* FarViewController.swift */,
+				F01257B2209ABAEF0088D41C /* FujiViewController.swift */,
+				F01258D720A3400E0088D41C /* Carrot1.png */,
+				F01258DB20A349B80088D41C /* Pasta1.png */,
+				F00F8EC820A40D08001BEE4E /* fuji.png */,
+				F00F8ECC20A40FCD001BEE4E /* penne.png */,
+				F00F8ED020A41134001BEE4E /* 2penne.png */,
+				F00F8ECA20A40D80001BEE4E /* far.png */,
+				F00F8ED220A47773001BEE4E /* potato1.png */,
+				F00F8ED620A47D48001BEE4E /* maru.png */,
+				F00F8ED820A52653001BEE4E /* blur.png */,
+				F01258D520A33F190088D41C /* CarrotViewController.swift */,
+				F00F8ED420A47B66001BEE4E /* PotatoViewController.swift */,
+				F00A8C7720A5F04900226C7A /* BroViewController.swift */,
+				F00A8C7920A5F1D000226C7A /* TimerViewController.swift */,
 			);
 			path = EggTimer;
 			sourceTree = "<group>";
@@ -71,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F0087B08208DFCF400AA726A /* Build configuration list for PBXNativeTarget "EggTimer" */;
 			buildPhases = (
+				B927793469102EF14BAC400A /* [CP] Check Pods Manifest.lock */,
 				F0087AF2208DFCF400AA726A /* Sources */,
 				F0087AF3208DFCF400AA726A /* Frameworks */,
 				F0087AF4208DFCF400AA726A /* Resources */,
@@ -97,6 +230,11 @@
 					F0087AF5208DFCF400AA726A = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -123,13 +261,54 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0087B3C2092218A00AA726A /* startegg.png in Resources */,
+				F01257A1209457EA0088D41C /* Allura-Regular.otf in Resources */,
+				F00F8ECB20A40D80001BEE4E /* far.png in Resources */,
+				F0087B3020921A1600AA726A /* 14egg.png in Resources */,
+				F01258A620A1EE910088D41C /* ミートソースパスタ.png in Resources */,
+				F01258D020A32D060088D41C /* 目覚ましアラーム.mp3 in Resources */,
+				F00F8ED320A47773001BEE4E /* potato1.png in Resources */,
+				F01257B7209ABCFC0088D41C /* Apples Script Demo.ttf in Resources */,
 				F0087B04208DFCF400AA726A /* LaunchScreen.storyboard in Resources */,
 				F0087B01208DFCF400AA726A /* Assets.xcassets in Resources */,
+				F00F8ED920A52654001BEE4E /* blur.png in Resources */,
+				F01258DC20A349B80088D41C /* Pasta1.png in Resources */,
+				F01258D820A3400E0088D41C /* Carrot1.png in Resources */,
+				F00A8C7620A5EF6000226C7A /* icon.png in Resources */,
+				F0087B2F20921A1600AA726A /* 9egg.png in Resources */,
+				F01257B5209ABCC20088D41C /* EchinosParkScript_PERSONAL_USE_ONLY.ttf in Resources */,
+				F00F8ED120A41135001BEE4E /* 2penne.png in Resources */,
+				F0087B2E20921A1600AA726A /* 12egg.png in Resources */,
+				F00F8ECD20A40FCD001BEE4E /* penne.png in Resources */,
 				F0087AFF208DFCF400AA726A /* Main.storyboard in Resources */,
+				F01257B9209ABDBF0088D41C /* Magnolia Script.otf in Resources */,
+				F00F8EC920A40D08001BEE4E /* fuji.png in Resources */,
+				F00F8ED720A47D48001BEE4E /* maru.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B927793469102EF14BAC400A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EggTimer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F0087AF2208DFCF400AA726A /* Sources */ = {
@@ -137,7 +316,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0087AFC208DFCF400AA726A /* ViewController.swift in Sources */,
+				F01257AB209AB5F20088D41C /* SpaViewController.swift in Sources */,
+				F01257A9209AB5CE0088D41C /* FedeViewController.swift in Sources */,
+				F012579720943FFD0088D41C /* FourteenEggViewController.swift in Sources */,
+				F01257B3209ABAEF0088D41C /* FujiViewController.swift in Sources */,
+				F01257AF209ABAB50088D41C /* PennneViewController.swift in Sources */,
+				F012578B209424F30088D41C /* FoodViewController.swift in Sources */,
+				F012579320943FB30088D41C /* NineEggViewController.swift in Sources */,
+				F01257A7209AB18A0088D41C /* PastaViewController.swift in Sources */,
+				F01257AD209AB6240088D41C /* SpatwoViewController.swift in Sources */,
+				F00A8C7A20A5F1D000226C7A /* TimerViewController.swift in Sources */,
 				F0087AFA208DFCF400AA726A /* AppDelegate.swift in Sources */,
+				F00F8ED520A47B66001BEE4E /* PotatoViewController.swift in Sources */,
+				F00A8C7820A5F04900226C7A /* BroViewController.swift in Sources */,
+				F01258D620A33F190088D41C /* CarrotViewController.swift in Sources */,
+				F0087B3820921EF700AA726A /* EggViewController.swift in Sources */,
+				F012579520943FE50088D41C /* TwelveEggViewController.swift in Sources */,
+				F01257B1209ABAD10088D41C /* FarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,13 +467,18 @@
 		};
 		F0087B09208DFCF400AA726A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B339DA67FA49209C1E1D251 /* Pods-EggTimer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2K446D59RQ;
 				INFOPLIST_FILE = EggTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.litech.EggTimer;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.lifeistech.L10EggTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,13 +486,18 @@
 		};
 		F0087B0A208DFCF400AA726A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B06681AA802D3870A75BA635 /* Pods-EggTimer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2K446D59RQ;
 				INFOPLIST_FILE = EggTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.litech.EggTimer;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.lifeistech.L10EggTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
