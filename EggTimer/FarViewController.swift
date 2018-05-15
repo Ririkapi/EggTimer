@@ -13,12 +13,16 @@ import UserNotifications
 class FarViewController: UIViewController {
     
     var audioPlayer: AVAudioPlayer!
+    var tmr: Timer!
+
     
     @IBOutlet weak var button: UIButton!
     @IBOutlet weak var lbTimer: UILabel!
     @IBOutlet weak var label1: UILabel!
     @IBOutlet weak var label2: UILabel!
     @IBOutlet weak var label3: UILabel!
+    @IBOutlet weak var cancele2: UIButton!
+    @IBOutlet weak var back2: UIButton!
     
     let noodleTime: TimeInterval = 60 * 9
     
@@ -27,6 +31,7 @@ class FarViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        cancele2.isHidden = true
     }
     
     override func didReceiveMemoryWarning() {
@@ -36,13 +41,15 @@ class FarViewController: UIViewController {
     
     
     @IBAction func countDown(sender: UIButton) {
-        let tmr = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(self.tickTimer(_:)), userInfo: nil, repeats: true)
+        tmr = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(self.tickTimer(_:)), userInfo: nil, repeats: true)
         tmr.fire()
         
         button.isHidden = true
         label1.isHidden = true
         label2.isHidden = true
         label3.isHidden = true
+        cancele2.isHidden = false
+        back2.isHidden = true
         
     }
     func setAudioPlayer(soundName: String, type: String){
@@ -97,11 +104,34 @@ class FarViewController: UIViewController {
             audioPlayer.play()
             
         }
+        if self.lbTimer.text == "00:10"{
+            let trigger: UNNotificationTrigger
+            trigger = UNTimeIntervalNotificationTrigger(timeInterval: 10, repeats: false)
+            
+            let content = UNMutableNotificationContent()
+            content.title = "Finish"
+            content.body = "9minutes passed!"
+            content.sound = UNNotificationSound.default()
+            
+            
+            let request = UNNotificationRequest(identifier: "normal",
+                                                content: content,
+                                                trigger: trigger)
+            
+            
+            UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
+        }
+    }
+    @IBAction func cancele() {
+        if tmr.isValid == true {
+            tmr.invalidate()
+        }
     }
     
-    
-    @IBAction func back(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+    @IBAction func back(){
+        let storyboard: UIStoryboard = self.storyboard!
+        let nextView = storyboard.instantiateViewController(withIdentifier: "Spa2")
+        present(nextView, animated: true, completion: nil)
     }
 }
 

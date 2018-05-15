@@ -21,8 +21,10 @@ class PastaViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func back(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+    @IBAction func back(){
+        let storyboard: UIStoryboard = self.storyboard!
+        let nextView = storyboard.instantiateViewController(withIdentifier: "Food")
+        present(nextView, animated: true, completion: nil)
     }
 
     /*

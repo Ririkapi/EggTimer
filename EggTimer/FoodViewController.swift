@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import UserNotifications
 class FoodViewController: UIViewController {
 
   
@@ -22,8 +22,181 @@ class FoodViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func back(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+    @IBAction func back(){
+        let storyboard: UIStoryboard = self.storyboard!
+        let nextView = storyboard.instantiateViewController(withIdentifier: "View")
+        present(nextView, animated: true, completion: nil)
+    }
+    
+    @IBAction func egg(){
+        if #available(iOS 10.0, *) {
+            // iOS 10
+            let center = UNUserNotificationCenter.current()
+            center.requestAuthorization(options: [.badge, .sound, .alert], completionHandler: { (granted, error) in
+                if error != nil {
+                    return
+                }
+                
+                if granted {
+                    
+                    print("通知")
+                    
+                    let center = UNUserNotificationCenter.current()
+                    center.delegate = self as? UNUserNotificationCenterDelegate
+                    
+                } else {
+                    print("通知拒否")
+                }
+            })
+            
+        } else {
+            // iOS 9以下
+            let settings = UIUserNotificationSettings(types: [.badge, .sound, .alert], categories: nil)
+            UIApplication.shared.registerUserNotificationSettings(settings)
+        }
+    }
+    
+    @IBAction func carrot(){
+        if #available(iOS 10.0, *) {
+            // iOS 10
+            let center = UNUserNotificationCenter.current()
+            center.requestAuthorization(options: [.badge, .sound, .alert], completionHandler: { (granted, error) in
+                if error != nil {
+                    return
+                }
+                
+                if granted {
+                    
+                    print("通知")
+                    
+                    let center = UNUserNotificationCenter.current()
+                    center.delegate = self as? UNUserNotificationCenterDelegate
+                    
+                } else {
+                    print("通知拒否")
+                }
+            })
+            
+        } else {
+            // iOS 9以下
+            let settings = UIUserNotificationSettings(types: [.badge, .sound, .alert], categories: nil)
+            UIApplication.shared.registerUserNotificationSettings(settings)
+        }
+    }
+    
+    @IBAction func bro(){
+        if #available(iOS 10.0, *) {
+            // iOS 10
+            let center = UNUserNotificationCenter.current()
+            center.requestAuthorization(options: [.badge, .sound, .alert], completionHandler: { (granted, error) in
+                if error != nil {
+                    return
+                }
+                
+                if granted {
+                    
+                    print("通知")
+                    
+                    let center = UNUserNotificationCenter.current()
+                    center.delegate = self as? UNUserNotificationCenterDelegate
+                    
+                } else {
+                    print("通知拒否")
+                }
+            })
+            
+        } else {
+            // iOS 9以下
+            let settings = UIUserNotificationSettings(types: [.badge, .sound, .alert], categories: nil)
+            UIApplication.shared.registerUserNotificationSettings(settings)
+        }
+    }
+    
+    @IBAction func long(){
+        if #available(iOS 10.0, *) {
+            // iOS 10
+            let center = UNUserNotificationCenter.current()
+            center.requestAuthorization(options: [.badge, .sound, .alert], completionHandler: { (granted, error) in
+                if error != nil {
+                    return
+                }
+                
+                if granted {
+                    
+                    print("通知")
+                    
+                    let center = UNUserNotificationCenter.current()
+                    center.delegate = self as? UNUserNotificationCenterDelegate
+                    
+                } else {
+                    print("通知拒否")
+                }
+            })
+            
+        } else {
+            // iOS 9以下
+            let settings = UIUserNotificationSettings(types: [.badge, .sound, .alert], categories: nil)
+            UIApplication.shared.registerUserNotificationSettings(settings)
+        }
+    }
+    
+    @IBAction func short(){
+        if #available(iOS 10.0, *) {
+            // iOS 10
+            let center = UNUserNotificationCenter.current()
+            center.requestAuthorization(options: [.badge, .sound, .alert], completionHandler: { (granted, error) in
+                if error != nil {
+                    return
+                }
+                
+                if granted {
+                    
+                    print("通知")
+                    
+                    let center = UNUserNotificationCenter.current()
+                    center.delegate = self as? UNUserNotificationCenterDelegate
+                    
+                } else {
+                    print("通知拒否")
+                }
+            })
+            
+        } else {
+            // iOS 9以下
+            let settings = UIUserNotificationSettings(types: [.badge, .sound, .alert], categories: nil)
+            UIApplication.shared.registerUserNotificationSettings(settings)
+        }
+    }
+    
+    @IBAction func potato(){
+        if #available(iOS 10.0, *) {
+            // iOS 10
+            let center = UNUserNotificationCenter.current()
+            center.requestAuthorization(options: [.badge, .sound, .alert], completionHandler: { (granted, error) in
+                if error != nil {
+                    return
+                }
+                
+                if granted {
+                    
+                    print("通知")
+                    
+                    let center = UNUserNotificationCenter.current()
+                    center.delegate = self as? UNUserNotificationCenterDelegate
+                    
+                } else {
+                    print("通知拒否")
+                }
+            })
+            
+        } else {
+            // iOS 9以下
+            let settings = UIUserNotificationSettings(types: [.badge, .sound, .alert], categories: nil)
+            UIApplication.shared.registerUserNotificationSettings(settings)
+        }
+    }
+    
+   
     }
     /*
     // MARK: - Navigation
@@ -35,4 +208,4 @@ class FoodViewController: UIViewController {
     }
     */
 
-}
+

@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E9F7CA00C0683AEC4AB24F82 /* Pods_EggTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C2BC84A9D135B55949CBF3F /* Pods_EggTimer.framework */; };
+		F0073D9B20AB381A00957DCC /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0073D9A20AB381A00957DCC /* UserNotifications.framework */; };
+		F0073D9D20AB4AFF00957DCC /* Magnolia Script.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F0073D9C20AB4AFF00957DCC /* Magnolia Script.pdf */; };
+		F0073D9F20AB4B6500957DCC /* Magnolia Script.otf in Resources */ = {isa = PBXBuildFile; fileRef = F0073D9E20AB4B6400957DCC /* Magnolia Script.otf */; };
+		F0073DA620AB5E9E00957DCC /* icon-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0073DA020AB5E9D00957DCC /* icon-2x.png */; };
+		F0073DA720AB5E9E00957DCC /* icon3.png in Resources */ = {isa = PBXBuildFile; fileRef = F0073DA120AB5E9D00957DCC /* icon3.png */; };
+		F0073DA820AB5E9E00957DCC /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = F0073DA220AB5E9E00957DCC /* icon2.png */; };
+		F0073DA920AB5E9E00957DCC /* icon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0073DA320AB5E9E00957DCC /* icon2x.png */; };
+		F0073DAA20AB5E9E00957DCC /* icon3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0073DA420AB5E9E00957DCC /* icon3x.png */; };
+		F0073DAB20AB5E9E00957DCC /* icon-3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0073DA520AB5E9E00957DCC /* icon-3x.png */; };
 		F0087AFA208DFCF400AA726A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0087AF9208DFCF400AA726A /* AppDelegate.swift */; };
 		F0087AFC208DFCF400AA726A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0087AFB208DFCF400AA726A /* ViewController.swift */; };
 		F0087AFF208DFCF400AA726A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0087AFD208DFCF400AA726A /* Main.storyboard */; };
@@ -44,7 +52,6 @@
 		F01258D620A33F190088D41C /* CarrotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01258D520A33F190088D41C /* CarrotViewController.swift */; };
 		F01258D820A3400E0088D41C /* Carrot1.png in Resources */ = {isa = PBXBuildFile; fileRef = F01258D720A3400E0088D41C /* Carrot1.png */; };
 		F01258DC20A349B80088D41C /* Pasta1.png in Resources */ = {isa = PBXBuildFile; fileRef = F01258DB20A349B80088D41C /* Pasta1.png */; };
-		F0A373DE20A6D79700D89876 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A373DD20A6D79700D89876 /* UserNotifications.framework */; };
 		F0A373F420A8A5D700D89876 /* llongpasta.png in Resources */ = {isa = PBXBuildFile; fileRef = F0A373ED20A8A5D400D89876 /* llongpasta.png */; };
 		F0A373F520A8A5D700D89876 /* medamayaki.png in Resources */ = {isa = PBXBuildFile; fileRef = F0A373EE20A8A5D500D89876 /* medamayaki.png */; };
 		F0A373F620A8A5D700D89876 /* boiledegg.png in Resources */ = {isa = PBXBuildFile; fileRef = F0A373EF20A8A5D500D89876 /* boiledegg.png */; };
@@ -74,9 +81,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1C2BC84A9D135B55949CBF3F /* Pods_EggTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EggTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B339DA67FA49209C1E1D251 /* Pods-EggTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EggTimer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EggTimer/Pods-EggTimer.debug.xcconfig"; sourceTree = "<group>"; };
 		B06681AA802D3870A75BA635 /* Pods-EggTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EggTimer.release.xcconfig"; path = "Pods/Target Support Files/Pods-EggTimer/Pods-EggTimer.release.xcconfig"; sourceTree = "<group>"; };
+		F0073D9A20AB381A00957DCC /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		F0073D9C20AB4AFF00957DCC /* Magnolia Script.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Magnolia Script.pdf"; sourceTree = "<group>"; };
+		F0073D9E20AB4B6400957DCC /* Magnolia Script.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Magnolia Script.otf"; path = "../../../Downloads/magnolia-script (1)/Magnolia Script.otf"; sourceTree = "<group>"; };
+		F0073DA020AB5E9D00957DCC /* icon-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-2x.png"; sourceTree = "<group>"; };
+		F0073DA120AB5E9D00957DCC /* icon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon3.png; sourceTree = "<group>"; };
+		F0073DA220AB5E9E00957DCC /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
+		F0073DA320AB5E9E00957DCC /* icon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2x.png; sourceTree = "<group>"; };
+		F0073DA420AB5E9E00957DCC /* icon3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon3x.png; sourceTree = "<group>"; };
+		F0073DA520AB5E9E00957DCC /* icon-3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-3x.png"; sourceTree = "<group>"; };
 		F0087AF6208DFCF400AA726A /* EggTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0087AF9208DFCF400AA726A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0087AFB208DFCF400AA726A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,7 +130,6 @@
 		F01258D520A33F190088D41C /* CarrotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotViewController.swift; sourceTree = "<group>"; };
 		F01258D720A3400E0088D41C /* Carrot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Carrot1.png; sourceTree = "<group>"; };
 		F01258DB20A349B80088D41C /* Pasta1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pasta1.png; sourceTree = "<group>"; };
-		F0A373DD20A6D79700D89876 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		F0A373ED20A8A5D400D89876 /* llongpasta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = llongpasta.png; sourceTree = "<group>"; };
 		F0A373EE20A8A5D500D89876 /* medamayaki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medamayaki.png; sourceTree = "<group>"; };
 		F0A373EF20A8A5D500D89876 /* boiledegg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boiledegg.png; sourceTree = "<group>"; };
@@ -149,8 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0A373DE20A6D79700D89876 /* UserNotifications.framework in Frameworks */,
-				E9F7CA00C0683AEC4AB24F82 /* Pods_EggTimer.framework in Frameworks */,
+				F0073D9B20AB381A00957DCC /* UserNotifications.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,11 +179,10 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		6157FF4685A9133A0326559B /* Frameworks */ = {
+		F0073D9920AB381A00957DCC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F0A373DD20A6D79700D89876 /* UserNotifications.framework */,
-				1C2BC84A9D135B55949CBF3F /* Pods_EggTimer.framework */,
+				F0073D9A20AB381A00957DCC /* UserNotifications.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -181,7 +193,7 @@
 				F0087AF8208DFCF400AA726A /* EggTimer */,
 				F0087AF7208DFCF400AA726A /* Products */,
 				2DB279DCE184547310AA7D62 /* Pods */,
-				6157FF4685A9133A0326559B /* Frameworks */,
+				F0073D9920AB381A00957DCC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -196,6 +208,14 @@
 		F0087AF8208DFCF400AA726A /* EggTimer */ = {
 			isa = PBXGroup;
 			children = (
+				F0073DA020AB5E9D00957DCC /* icon-2x.png */,
+				F0073DA520AB5E9E00957DCC /* icon-3x.png */,
+				F0073DA220AB5E9E00957DCC /* icon2.png */,
+				F0073DA320AB5E9E00957DCC /* icon2x.png */,
+				F0073DA120AB5E9D00957DCC /* icon3.png */,
+				F0073DA420AB5E9E00957DCC /* icon3x.png */,
+				F0073D9C20AB4AFF00957DCC /* Magnolia Script.pdf */,
+				F0073D9E20AB4B6400957DCC /* Magnolia Script.otf */,
 				F0A3742720A9CCC900D89876 /* aka.png */,
 				F0A3742520A9CCC800D89876 /* ao.png */,
 				F0A3742D20A9D64400D89876 /* aoo.png */,
@@ -329,6 +349,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F01257A1209457EA0088D41C /* Allura-Regular.otf in Resources */,
+				F0073DA620AB5E9E00957DCC /* icon-2x.png in Resources */,
+				F0073D9F20AB4B6500957DCC /* Magnolia Script.otf in Resources */,
 				F00F8ECB20A40D80001BEE4E /* far.png in Resources */,
 				F0A373F720A8A5D700D89876 /* ninjin.png in Resources */,
 				F0A3742820A9CCC900D89876 /* kiiro.png in Resources */,
@@ -340,9 +362,11 @@
 				F0A373F920A8A5D700D89876 /* brokkori.png in Resources */,
 				F0A373FA20A8A5D700D89876 /* potato.png in Resources */,
 				F01258A620A1EE910088D41C /* ミートソースパスタ.png in Resources */,
+				F0073D9D20AB4AFF00957DCC /* Magnolia Script.pdf in Resources */,
 				F0A3740D20A9429D00D89876 /* 12egg.PNG in Resources */,
 				F01258D020A32D060088D41C /* 目覚ましアラーム.mp3 in Resources */,
 				F00F8ED320A47773001BEE4E /* potato1.png in Resources */,
+				F0073DA920AB5E9E00957DCC /* icon2x.png in Resources */,
 				F01257B7209ABCFC0088D41C /* Apples Script Demo.ttf in Resources */,
 				F0087B04208DFCF400AA726A /* LaunchScreen.storyboard in Resources */,
 				F0A3740B20A9429D00D89876 /* 11egg.PNG in Resources */,
@@ -351,11 +375,14 @@
 				F0087B01208DFCF400AA726A /* Assets.xcassets in Resources */,
 				F00F8ED920A52654001BEE4E /* blur.png in Resources */,
 				F01258DC20A349B80088D41C /* Pasta1.png in Resources */,
+				F0073DA820AB5E9E00957DCC /* icon2.png in Resources */,
 				F01258D820A3400E0088D41C /* Carrot1.png in Resources */,
 				F0A3742E20A9D64500D89876 /* aoo.png in Resources */,
+				F0073DA720AB5E9E00957DCC /* icon3.png in Resources */,
 				F01257B5209ABCC20088D41C /* EchinosParkScript_PERSONAL_USE_ONLY.ttf in Resources */,
 				F0A373F520A8A5D700D89876 /* medamayaki.png in Resources */,
 				F0A373F820A8A5D700D89876 /* shortpasta.png in Resources */,
+				F0073DAA20AB5E9E00957DCC /* icon3x.png in Resources */,
 				F00F8ED120A41135001BEE4E /* 2penne.png in Resources */,
 				F00F8ECD20A40FCD001BEE4E /* penne.png in Resources */,
 				F0087AFF208DFCF400AA726A /* Main.storyboard in Resources */,
@@ -368,6 +395,7 @@
 				F0A373F620A8A5D700D89876 /* boiledegg.png in Resources */,
 				F00F8ED720A47D48001BEE4E /* maru.png in Resources */,
 				F0A3741020A9429D00D89876 /* 9egg.PNG in Resources */,
+				F0073DAB20AB5E9E00957DCC /* icon-3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,7 +596,7 @@
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -587,7 +615,7 @@
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

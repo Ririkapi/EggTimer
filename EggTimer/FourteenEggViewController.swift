@@ -5,12 +5,16 @@ import UserNotifications
 class FourteenEggViewController: UIViewController {
     
     var audioPlayer: AVAudioPlayer!
+    var tmr: Timer!
+
     
     @IBOutlet weak var button: UIButton!
     @IBOutlet weak var lbTimer: UILabel!
     let noodleTime: TimeInterval = 60 * 14
     
     @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var cancele2: UIButton!
+    @IBOutlet weak var back2: UIButton!
    
     
     
@@ -18,6 +22,7 @@ class FourteenEggViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        cancele2.isHidden = true
     }
     
     override func didReceiveMemoryWarning() {
@@ -27,10 +32,12 @@ class FourteenEggViewController: UIViewController {
     
     
     @IBAction func countDown(sender: UIButton) {
-        let tmr = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(self.tickTimer(_:)), userInfo: nil, repeats: true)
+        tmr = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(self.tickTimer(_:)), userInfo: nil, repeats: true)
         tmr.fire()
         
         button.isHidden = true
+        back2.isHidden = true
+        cancele2.isHidden = false
     
     }
     func setAudioPlayer(soundName: String, type: String){
@@ -85,12 +92,32 @@ class FourteenEggViewController: UIViewController {
             audioPlayer.play()
             
         }
+        
+        if self.lbTimer.text == "00:10"{
+            let trigger: UNNotificationTrigger
+            trigger = UNTimeIntervalNotificationTrigger(timeInterval: 10, repeats: false)
+            
+            let content = UNMutableNotificationContent()
+            content.title = "Finish"
+            content.body = "9minutes passed!"
+            content.sound = UNNotificationSound.default()
+            
+            
+            let request = UNNotificationRequest(identifier: "normal",
+                                                content: content,
+                                                trigger: trigger)
+            
+            
+            UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
+        }
+        
+        
         let img8 = UIImage(named:"8egg.PNG")!
         if self.lbTimer.text == "13:59"{
             imageView.image = img8
         }
         
-        let img9 = UIImage(named:"09egg.PNG")!
+        let img9 = UIImage(named:"9egg.PNG")!
         if self.lbTimer.text == "05:00"{
             imageView.image = img9
         }
@@ -119,8 +146,16 @@ class FourteenEggViewController: UIViewController {
     }
     
     
-    @IBAction func back(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+    @IBAction func cancele() {
+        if tmr.isValid == true {
+            tmr.invalidate()
+        }
+    }
+    
+    @IBAction func back(){
+        let storyboard: UIStoryboard = self.storyboard!
+        let nextView = storyboard.instantiateViewController(withIdentifier: "Egg")
+        present(nextView, animated: true, completion: nil)
     }
 }
 

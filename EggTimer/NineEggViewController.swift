@@ -48,6 +48,7 @@ class NineEggViewController: UIViewController {
 
     
     @IBAction func countDown(sender: UIButton) {
+        
         tmr = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(self.tickTimer(_:)), userInfo: nil, repeats: true)
         tmr.fire()
         
@@ -66,11 +67,7 @@ class NineEggViewController: UIViewController {
         let dt02 = Date(timeInterval: -1.0, since: dt)
         self.lbTimer.text = df.string(from:dt02)
         
-        func back(_ sender: Any) {
-            dismiss(animated: true, completion: nil)
-            
-            timer.invalidate()
-        }
+        
         
         if self.lbTimer.text == "00:00"{
             timer.invalidate()
@@ -127,7 +124,12 @@ class NineEggViewController: UIViewController {
         }
     }
     
-    
+    @IBAction func back(){
+        let storyboard: UIStoryboard = self.storyboard!
+        let nextView = storyboard.instantiateViewController(withIdentifier: "Egg")
+        present(nextView, animated: true, completion: nil)
+    }
+
     
     
 
