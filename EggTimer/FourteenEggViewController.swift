@@ -1,5 +1,6 @@
 import UIKit
 import AVFoundation
+import UserNotifications
 
 class FourteenEggViewController: UIViewController {
     
@@ -10,10 +11,7 @@ class FourteenEggViewController: UIViewController {
     let noodleTime: TimeInterval = 60 * 14
     
     @IBOutlet weak var imageView: UIImageView!
-    var unchecked: UIImage = UIImage(named: "startegg.png")!
-    var checked: UIImage = UIImage(named: "14egg.png")!
-    
-    var flg = false
+   
     
     
     
@@ -33,17 +31,7 @@ class FourteenEggViewController: UIViewController {
         tmr.fire()
         
         button.isHidden = true
-        
-        if flg{
-            imageView.image = unchecked
-            flg = false
-            print("false")
-        }
-        else{
-            imageView.image = checked
-            flg = true
-            print("true")
-        }
+    
     }
     func setAudioPlayer(soundName: String, type: String){
         let soundFilePath = Bundle.main.path(forResource: soundName, ofType: type)!
@@ -66,8 +54,26 @@ class FourteenEggViewController: UIViewController {
         
         if self.lbTimer.text == "00:00"{
             timer.invalidate()
+            
+            let trigger: UNNotificationTrigger
+            trigger = UNTimeIntervalNotificationTrigger(timeInterval: 60 * 14, repeats: false)
+            
+            let content = UNMutableNotificationContent()
+            content.title = "Finish"
+            content.body = "14min passed!"
+            content.sound = UNNotificationSound.default()
+            
+            
+            let request = UNNotificationRequest(identifier: "normal",
+                                                content: content,
+                                                trigger: trigger)
+            
+            
+            UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
+            
+            
             let alert = UIAlertController(title: "Finish", message:
-                "14minutes passed!", preferredStyle: .alert)
+                "14min passed!", preferredStyle: .alert)
             
             let okAction = UIAlertAction(title: "OK", style: .destructive) { (action:UIAlertAction) in
                 self.audioPlayer.stop()
@@ -78,6 +84,37 @@ class FourteenEggViewController: UIViewController {
             setAudioPlayer(soundName: "目覚ましアラーム", type: "mp3")
             audioPlayer.play()
             
+        }
+        let img8 = UIImage(named:"8egg.PNG")!
+        if self.lbTimer.text == "13:59"{
+            imageView.image = img8
+        }
+        
+        let img9 = UIImage(named:"09egg.PNG")!
+        if self.lbTimer.text == "05:00"{
+            imageView.image = img9
+        }
+        
+        let img10 = UIImage(named:"10egg.PNG")!
+        if self.lbTimer.text == "04:00"{
+            imageView.image = img10
+        }
+        
+        let img11 = UIImage(named:"11egg.PNG")!
+        if self.lbTimer.text == "03:00"{
+            imageView.image = img11
+        }
+        let img12 = UIImage(named:"12egg.PNG")!
+        if self.lbTimer.text == "02:00"{
+            imageView.image = img12
+        }
+        let img13 = UIImage(named:"13egg.PNG")!
+        if self.lbTimer.text == "01:00"{
+            imageView.image = img13
+        }
+        let img14 = UIImage(named:"14egg.PNG")!
+        if self.lbTimer.text == "00:00"{
+            imageView.image = img14
         }
     }
     

@@ -10,17 +10,17 @@ import UIKit
 import AVFoundation
 import UserNotifications
 
-class PennneViewController: UIViewController {
+
+class TenViewController: UIViewController {
     
     var audioPlayer: AVAudioPlayer!
     
     @IBOutlet weak var button: UIButton!
     @IBOutlet weak var lbTimer: UILabel!
-    @IBOutlet weak var label1: UILabel!
-    @IBOutlet weak var label2: UILabel!
-    @IBOutlet weak var label3: UILabel!
-    
+    @IBOutlet weak var maru:UIImageView!
     let noodleTime: TimeInterval = 60 * 10
+    
+    @IBOutlet weak var imageView: UIImageView!
     
     
     
@@ -40,9 +40,9 @@ class PennneViewController: UIViewController {
         tmr.fire()
         
         button.isHidden = true
-        label1.isHidden = true
-        label2.isHidden = true
-        label3.isHidden = true
+        maru.isHidden = true
+        
+        
         
     }
     func setAudioPlayer(soundName: String, type: String){
@@ -68,11 +68,11 @@ class PennneViewController: UIViewController {
             timer.invalidate()
             
             let trigger: UNNotificationTrigger
-            trigger = UNTimeIntervalNotificationTrigger(timeInterval: 60 * 9, repeats: false)
+            trigger = UNTimeIntervalNotificationTrigger(timeInterval: 60 * 10, repeats: false)
             
             let content = UNMutableNotificationContent()
             content.title = "Finish"
-            content.body = "9minutes passed!"
+            content.body = "10minutes passed!"
             content.sound = UNNotificationSound.default()
             
             
@@ -97,7 +97,37 @@ class PennneViewController: UIViewController {
             audioPlayer.play()
             
         }
+        let img1 = UIImage(named:"aka.png")!
+        if self.lbTimer.text == "09:59"{
+            imageView.image = img1
+        }
+        
+        let img2 = UIImage(named:"kiiro.png")!
+        if self.lbTimer.text == "08:00"{
+            imageView.image = img2
+        }
+        
+        let img3 = UIImage(named:"midori.png")!
+        if self.lbTimer.text == "06:00"{
+            imageView.image = img3
+        }
+        let img4 = UIImage(named:"mizuiro.png")!
+        if self.lbTimer.text == "04:00"{
+            imageView.image = img4
+        }
+        let img5 = UIImage(named:"aoo.png")!
+        if self.lbTimer.text == "02:00"{
+            imageView.image = img5
+        }
+        let img6 = UIImage(named:"ao.png")!
+        if self.lbTimer.text == "00:10"{
+            imageView.image = img6
+        }
+        
     }
+    
+    
+    
     
     
     @IBAction func back(_ sender: Any) {

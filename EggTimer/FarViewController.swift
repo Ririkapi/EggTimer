@@ -8,6 +8,7 @@
 
 import UIKit
 import AVFoundation
+import UserNotifications
 
 class FarViewController: UIViewController {
     
@@ -17,6 +18,7 @@ class FarViewController: UIViewController {
     @IBOutlet weak var lbTimer: UILabel!
     @IBOutlet weak var label1: UILabel!
     @IBOutlet weak var label2: UILabel!
+    @IBOutlet weak var label3: UILabel!
     
     let noodleTime: TimeInterval = 60 * 9
     
@@ -40,6 +42,7 @@ class FarViewController: UIViewController {
         button.isHidden = true
         label1.isHidden = true
         label2.isHidden = true
+        label3.isHidden = true
         
     }
     func setAudioPlayer(soundName: String, type: String){
@@ -63,6 +66,24 @@ class FarViewController: UIViewController {
         
         if self.lbTimer.text == "00:00"{
             timer.invalidate()
+            
+            let trigger: UNNotificationTrigger
+            trigger = UNTimeIntervalNotificationTrigger(timeInterval: 60 * 9, repeats: false)
+            
+            let content = UNMutableNotificationContent()
+            content.title = "Finish"
+            content.body = "9minutes passed!"
+            content.sound = UNNotificationSound.default()
+            
+            
+            let request = UNNotificationRequest(identifier: "normal",
+                                                content: content,
+                                                trigger: trigger)
+            
+            
+            UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
+            
+            
             let alert = UIAlertController(title: "Finish", message:
                 "9minutes passed!", preferredStyle: .alert)
             

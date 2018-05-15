@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xRI-a1-gqx">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,9 +10,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="Apples Script Demo.ttf">
-            <string>ApplesScriptDemo</string>
-        </array>
         <array key="Georgia.ttf">
             <string>Georgia</string>
         </array>
@@ -28,9 +25,6 @@
         <array key="Magnolia Script.otf">
             <string>Magnolia-Script</string>
         </array>
-        <array key="MalayalamSangamMN.ttc">
-            <string>MalayalamSangamMN</string>
-        </array>
         <array key="NotoNastaliq.ttc">
             <string>NotoNastaliqUrdu</string>
         </array>
@@ -45,18 +39,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Timer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iYd-Fc-AdU">
-                                <rect key="frame" x="108" y="162" width="246" height="109"/>
+                                <rect key="frame" x="108" y="137" width="246" height="109"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="90"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="12egg.png" translatesAutoresizingMaskIntoConstraints="NO" id="WDG-2M-mdL">
-                                <rect key="frame" x="30" y="292" width="314" height="295"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9egg.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="WDG-2M-mdL">
+                                <rect key="frame" x="30" y="256" width="314" height="295"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Jc-M4-xf3">
-                                <rect key="frame" x="96" y="430" width="195" height="89"/>
+                                <rect key="frame" x="30" y="313" width="314" height="248"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="55"/>
                                 <state key="normal" title="Start">
@@ -67,23 +61,26 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l3R-MX-5xi">
-                                <rect key="frame" x="0.0" y="595" width="375" height="52"/>
+                                <rect key="frame" x="30" y="580" width="314" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="MalayalamSangamMN" family="Malayalam Sangam MN" pointSize="31"/>
-                                <state key="normal" title="1.3.5.10minutes"/>
+                                <color key="backgroundColor" red="1" green="0.79757355688195508" blue="0.25862230782966367" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="42"/>
+                                <state key="normal" title="1.3.5.10min ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="tac-fC-VZO" kind="presentation" id="GyB-E5-160"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="エッグタイマー " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HxI-Yr-HUG">
-                                <rect key="frame" x="187" y="88" width="181" height="84"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="エッグタイマー " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HxI-Yr-HUG">
+                                <rect key="frame" x="187" y="65" width="181" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Egg" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Nu-y9-nq0">
-                                <rect key="frame" x="25" y="32" width="154" height="149"/>
+                                <rect key="frame" x="25" y="0.0" width="154" height="149"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="90"/>
                                 <nil key="textColor"/>
@@ -96,7 +93,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-786" y="144"/>
+            <point key="canvasLocation" x="-786.39999999999998" y="143.47826086956522"/>
         </scene>
         <!--Timer View Controller-->
         <scene sceneID="w7r-52-8iR">
@@ -106,97 +103,63 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4vf-tG-N8c">
-                                <rect key="frame" x="215" y="96" width="138" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.97211307847772022" green="0.61408121287881645" blue="0.33213411210602323" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="37"/>
-                                <state key="normal" title="Start">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="01:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fjR-nJ-AAh">
-                                <rect key="frame" x="16" y="66" width="180" height="90"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="NotoNastaliqUrdu" family="Noto Nastaliq Urdu" pointSize="66"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="03:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d7z-NF-vIa">
-                                <rect key="frame" x="16" y="224" width="180" height="90"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="NotoNastaliqUrdu" family="Noto Nastaliq Urdu" pointSize="66"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JrL-kZ-aLL">
-                                <rect key="frame" x="15" y="534" width="180" height="90"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="NotoNastaliqUrdu" family="Noto Nastaliq Urdu" pointSize="66"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="05:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pmu-bH-Lci">
-                                <rect key="frame" x="16" y="375" width="180" height="90"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="NotoNastaliqUrdu" family="Noto Nastaliq Urdu" pointSize="66"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kB8-E6-q7w">
-                                <rect key="frame" x="0.0" y="0.0" width="104" height="79"/>
+                                <rect key="frame" x="0.0" y="20" width="104" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
                                 <state key="normal" title="back"/>
+                                <connections>
+                                    <action selector="back:" destination="tac-fC-VZO" eventType="touchUpInside" id="JsB-J0-S3a"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PFD-40-2i8">
-                                <rect key="frame" x="215" y="257" width="138" height="70"/>
+                                <rect key="frame" x="0.0" y="254" width="375" height="134"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.97211307849999995" green="0.61408121289999995" blue="0.33213411209999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="37"/>
-                                <state key="normal" title="Start">
+                                <color key="backgroundColor" red="0.97211307849999995" green="0.60868199420090086" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="53"/>
+                                <state key="normal" title="03:00">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="1eC-od-Uz5" kind="presentation" id="pza-eX-Gtu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2aP-dD-s8V">
-                                <rect key="frame" x="215" y="407" width="138" height="70"/>
+                                <rect key="frame" x="0.0" y="396" width="375" height="124"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.97211307849999995" green="0.61408121289999995" blue="0.33213411209999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="37"/>
-                                <state key="normal" title="Start">
+                                <color key="backgroundColor" red="0.97211307849999995" green="0.49588147602041216" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="53"/>
+                                <state key="normal" title="05:00">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="t0c-oK-PUC" kind="presentation" id="Tio-Gz-u1t"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VdK-Pf-Onv">
-                                <rect key="frame" x="215" y="569" width="138" height="70"/>
+                                <rect key="frame" x="0.0" y="528" width="375" height="139"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.97211307849999995" green="0.61408121289999995" blue="0.33213411209999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="37"/>
-                                <state key="normal" title="Start">
+                                <color key="backgroundColor" red="0.97211307849999995" green="0.28869246015886119" blue="0.0010849076091287747" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="53"/>
+                                <state key="normal" title="10:00">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="lwc-Uh-2Q0" kind="presentation" id="BrI-3n-8eo"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="カップラーメンに！" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YaG-Ef-UV9">
-                                <rect key="frame" x="24" y="330" width="194" height="21"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4vf-tG-N8c">
+                                <rect key="frame" x="0.0" y="107" width="375" height="139"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" red="0.36989288469999998" green="0.36989288469999998" blue="0.36989288469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="カップ焼きそばに！" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fW2-B5-Hb4">
-                                <rect key="frame" x="24" y="480" width="194" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" red="0.36989288469999998" green="0.36989288469999998" blue="0.36989288469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="そうめんに！" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bX-md-Sqq">
-                                <rect key="frame" x="24" y="166" width="194" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" red="0.36989288469999998" green="0.36989288469999998" blue="0.36989288469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <color key="backgroundColor" red="1" green="0.75816159321882037" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="53"/>
+                                <state key="normal" title="01:00">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Dfd-KC-vEB" kind="presentation" id="ILA-Of-8wy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="uTn-Py-jy5"/>
@@ -204,77 +167,106 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aWP-I1-sm5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10" y="833"/>
+            <point key="canvasLocation" x="8.8000000000000007" y="832.53373313343332"/>
         </scene>
-        <!--View Controller-->
+        <!--One View Controller-->
         <scene sceneID="5DA-Ef-LrB">
             <objects>
-                <viewController id="Dfd-KC-vEB" sceneMemberID="viewController">
+                <viewController id="Dfd-KC-vEB" customClass="OneViewController" customModule="EggTimer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JZV-0e-0yt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UMJ-Of-E0C">
+                                <rect key="frame" x="4" y="248" width="366" height="347"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U5s-rp-4C2">
+                                <rect key="frame" x="0.0" y="20" width="104" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
+                                <state key="normal" title="back"/>
+                                <connections>
+                                    <action selector="back:" destination="Dfd-KC-vEB" eventType="touchUpInside" id="j2a-Al-0Ua"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="01:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U14-Jk-h5L">
+                                <rect key="frame" x="0.0" y="62" width="375" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="NotoNastaliqUrdu" family="Noto Nastaliq Urdu" pointSize="109"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="maru.png" translatesAutoresizingMaskIntoConstraints="NO" id="CeT-XH-8Fe">
+                                <rect key="frame" x="76" y="254" width="222" height="198"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FxB-sC-9fW">
+                                <rect key="frame" x="99" y="254" width="177" height="192"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="56"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="countDownWithSender:" destination="Dfd-KC-vEB" eventType="touchUpInside" id="S8z-7c-T1V"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="LXU-8i-gGE"/>
                     </view>
+                    <connections>
+                        <outlet property="button" destination="FxB-sC-9fW" id="A0z-md-kuv"/>
+                        <outlet property="imageView" destination="UMJ-Of-E0C" id="OYl-cE-Wau"/>
+                        <outlet property="lbTimer" destination="U14-Jk-h5L" id="Ecz-RC-2sm"/>
+                        <outlet property="maru" destination="CeT-XH-8Fe" id="ri1-bZ-lHa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LxZ-GW-w60" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-786" y="1567"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="HVL-TB-dbZ">
-            <objects>
-                <viewController id="evW-o5-DkI" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ZEP-8h-q5R">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="MJA-I0-6R2"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qgJ-kY-dda" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="11" y="1545"/>
+            <point key="canvasLocation" x="-90" y="1584"/>
         </scene>
         <!--Food View Controller-->
         <scene sceneID="f3u-Rf-iTO">
             <objects>
-                <viewController id="xRI-a1-gqx" customClass="FoodViewController" customModule="EggTimer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Food" id="xRI-a1-gqx" customClass="FoodViewController" customModule="EggTimer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dgX-w5-6Rm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KWK-M3-tPR">
-                                <rect key="frame" x="0.0" y="301" width="375" height="65"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="boiledegg.png" translatesAutoresizingMaskIntoConstraints="NO" id="TbN-Fn-5Fw">
+                                <rect key="frame" x="8" y="274" width="175" height="175"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="46"/>
-                                <state key="normal" title="Egg Timer">
-                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="mUD-iA-2jt" kind="presentation" id="vZl-hl-VKz"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lmg-31-TeT">
-                                <rect key="frame" x="0.0" y="111" width="375" height="65"/>
+                                <color key="backgroundColor" red="0.99111479920000001" green="0.76256719248275195" blue="0.096307882871567899" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ninjin.png" translatesAutoresizingMaskIntoConstraints="NO" id="cla-gX-hOj">
+                                <rect key="frame" x="191" y="274" width="175" height="175"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="46"/>
-                                <state key="normal" title="Long Pasta"/>
-                                <connections>
-                                    <segue destination="l9D-vV-4Sh" kind="presentation" id="vRu-JX-51t"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="chd-Uq-fjL">
-                                <rect key="frame" x="0.0" y="0.0" width="104" height="79"/>
+                                <color key="backgroundColor" red="0.97211307849999995" green="0.61408121289999995" blue="0.33213411209999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brokkori.png" translatesAutoresizingMaskIntoConstraints="NO" id="U7d-4W-8uD">
+                                <rect key="frame" x="8" y="457" width="175" height="175"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
-                                <state key="normal" title="back"/>
-                                <connections>
-                                    <action selector="back:" destination="xRI-a1-gqx" eventType="touchUpInside" id="LUB-Jr-P2G"/>
-                                </connections>
-                            </button>
+                                <color key="backgroundColor" red="0.29912825469999998" green="0.66404226040000003" blue="0.52111428709999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="potato.png" translatesAutoresizingMaskIntoConstraints="NO" id="fju-5S-aZs">
+                                <rect key="frame" x="191" y="460" width="175" height="175"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.86953529792746109" green="0.55241866590488542" blue="0.30046016573194839" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="llongpasta.png" translatesAutoresizingMaskIntoConstraints="NO" id="JMP-aY-Ocd">
+                                <rect key="frame" x="8" y="91" width="175" height="175"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.97211307849999995" green="0.37783366812472741" blue="0.12439227896378097" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shortpasta.png" translatesAutoresizingMaskIntoConstraints="NO" id="WQV-EV-UKP">
+                                <rect key="frame" x="191" y="91" width="175" height="175"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.97211307849999995" green="0.64748781407216738" blue="0.8752841241094732" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f7W-8W-XFb">
-                                <rect key="frame" x="0.0" y="401" width="375" height="56"/>
+                                <rect key="frame" x="191" y="274" width="175" height="175"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="46"/>
                                 <state key="normal" title="Carrot"/>
@@ -282,8 +274,28 @@
                                     <segue destination="OzL-6M-BLR" kind="presentation" id="PKr-89-vTd"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KWK-M3-tPR">
+                                <rect key="frame" x="8" y="274" width="175" height="175"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="50"/>
+                                <state key="normal" title="  Egg ">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="mUD-iA-2jt" kind="presentation" id="vZl-hl-VKz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="chd-Uq-fjL">
+                                <rect key="frame" x="0.0" y="0.0" width="104" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
+                                <state key="normal" title="back"/>
+                                <connections>
+                                    <action selector="back:" destination="xRI-a1-gqx" eventType="touchUpInside" id="LUB-Jr-P2G"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KGp-Mp-Jn5">
-                                <rect key="frame" x="0.0" y="485" width="375" height="65"/>
+                                <rect key="frame" x="191" y="460" width="175" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="46"/>
                                 <state key="normal" title="Potato"/>
@@ -291,8 +303,26 @@
                                     <segue destination="tPj-Sw-skK" kind="presentation" id="Bkj-vy-x2O"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C8V-i3-D0I">
+                                <rect key="frame" x="191" y="88" width="175" height="178"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="32"/>
+                                <state key="normal" title="Short Pasta"/>
+                                <connections>
+                                    <segue destination="vxN-jc-j7E" kind="presentation" id="vbO-YA-FJ6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lmg-31-TeT">
+                                <rect key="frame" x="8" y="91" width="175" height="175"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="32"/>
+                                <state key="normal" title="Long Pasta"/>
+                                <connections>
+                                    <segue destination="l9D-vV-4Sh" kind="presentation" id="vRu-JX-51t"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sdk-Bh-NTQ">
-                                <rect key="frame" x="0.0" y="574" width="375" height="77"/>
+                                <rect key="frame" x="8" y="458" width="175" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="46"/>
                                 <state key="normal" title="Broccoli">
@@ -302,15 +332,6 @@
                                     <segue destination="8xH-VS-H02" kind="presentation" id="lAu-Rz-Dih"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C8V-i3-D0I">
-                                <rect key="frame" x="0.0" y="204" width="375" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="46"/>
-                                <state key="normal" title="Short Pasta"/>
-                                <connections>
-                                    <segue destination="vxN-jc-j7E" kind="presentation" id="vbO-YA-FJ6"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Pea-CZ-IWv"/>
@@ -318,7 +339,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ihD-cf-eGP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-127" y="144"/>
+            <point key="canvasLocation" x="-127.2" y="143.47826086956522"/>
         </scene>
         <!--Egg View Controller-->
         <scene sceneID="Uph-Nq-vHx">
@@ -328,22 +349,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9egg.png" translatesAutoresizingMaskIntoConstraints="NO" id="DEq-Lg-uAH">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9egg.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="DEq-Lg-uAH">
                                 <rect key="frame" x="204" y="196" width="139" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="14egg.png" translatesAutoresizingMaskIntoConstraints="NO" id="cQb-Ff-FA4">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="14egg.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="cQb-Ff-FA4">
                                 <rect key="frame" x="204" y="504" width="139" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="12egg.png" translatesAutoresizingMaskIntoConstraints="NO" id="0Xw-pj-RwI">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="12egg.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="0Xw-pj-RwI">
                                 <rect key="frame" x="204" y="351" width="139" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VA4-b8-YsL">
-                                <rect key="frame" x="27" y="375" width="146" height="75"/>
+                                <rect key="frame" x="27" y="378" width="146" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ApplesScriptDemo" family="Apples Script Demo" pointSize="53"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="53"/>
                                 <state key="normal" title="12min">
                                     <color key="titleShadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -351,24 +372,17 @@
                                     <segue destination="k0r-kj-yw4" kind="presentation" id="arT-ij-Bre"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="とろとろな卵" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fsh-A5-M6B">
-                                <rect key="frame" x="52" y="267" width="104" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="半熟卵" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6L5-6c-o2X">
-                                <rect key="frame" x="78" y="442" width="52" height="21"/>
+                                <rect key="frame" x="78" y="448" width="52" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pxc-PR-8cB">
-                                <rect key="frame" x="31" y="536" width="139" height="63"/>
+                                <rect key="frame" x="27" y="536" width="146" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ApplesScriptDemo" family="Apples Script Demo" pointSize="53"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="53"/>
                                 <state key="normal" title="14min"/>
                                 <connections>
                                     <segue destination="tYj-Uk-Gpl" kind="presentation" id="Gue-8m-qZm"/>
@@ -382,12 +396,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0D9-tU-KOg">
-                                <rect key="frame" x="0.0" y="0.0" width="104" height="79"/>
+                                <rect key="frame" x="0.0" y="20" width="104" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
                                 <state key="normal" title="back"/>
                                 <connections>
-                                    <action selector="back:" destination="mUD-iA-2jt" eventType="touchUpInside" id="OAv-Be-QyD"/>
+                                    <action selector="back" destination="mUD-iA-2jt" eventType="touchUpInside" id="RyM-RF-oUX"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="フタをしてください。" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OHm-kP-QIU">
@@ -405,16 +419,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="固茹で卵" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ygw-Vn-UFv">
-                                <rect key="frame" x="69" y="594" width="70" height="21"/>
+                                <rect key="frame" x="69" y="598" width="70" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ywl-WD-ZYw">
-                                <rect key="frame" x="31" y="213" width="146" height="75"/>
+                                <rect key="frame" x="31" y="221" width="146" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ApplesScriptDemo" family="Apples Script Demo" pointSize="53"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="53"/>
                                 <state key="normal" title="9min">
                                     <color key="titleShadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -422,6 +436,13 @@
                                     <segue destination="rn6-Yt-EWS" kind="presentation" id="1BO-GS-jqf"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="とろとろな卵" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fsh-A5-M6B">
+                                <rect key="frame" x="52" y="288" width="104" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="FaE-KA-pO2"/>
@@ -439,17 +460,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MHM-pk-P8y">
-                                <rect key="frame" x="0.0" y="0.0" width="104" height="79"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7egg.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="BKV-jt-XpH">
+                                <rect key="frame" x="50" y="253" width="274" height="292"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MHM-pk-P8y">
+                                <rect key="frame" x="0.0" y="20" width="104" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
                                 <state key="normal" title="back"/>
                                 <connections>
                                     <action selector="back:" destination="k0r-kj-yw4" eventType="touchUpInside" id="dQc-Ez-QUD"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yL5-Wb-xmO">
-                                <rect key="frame" x="100" y="380" width="177" height="72"/>
+                                <rect key="frame" x="100" y="341" width="177" height="148"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="56"/>
                                 <state key="normal" title="Start">
@@ -466,10 +491,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="startegg.png" translatesAutoresizingMaskIntoConstraints="NO" id="BKV-jt-XpH">
-                                <rect key="frame" x="50" y="253" width="274" height="292"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="GDv-fG-Yrv"/>
@@ -497,12 +518,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zpp-dJ-urT">
-                                <rect key="frame" x="0.0" y="0.0" width="104" height="79"/>
+                                <rect key="frame" x="0.0" y="18" width="104" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
                                 <state key="normal" title="back"/>
                                 <connections>
-                                    <action selector="back:" destination="mUD-iA-2jt" eventType="touchUpInside" id="kBw-Ko-2aF"/>
+                                    <action selector="back:" destination="l9D-vV-4Sh" eventType="touchUpInside" id="bca-ni-OD9"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fedelini" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="64E-zN-0F9">
@@ -611,17 +632,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tyv-UR-Ixg">
-                                <rect key="frame" x="0.0" y="0.0" width="104" height="79"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7egg.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="gpw-IF-ndJ">
+                                <rect key="frame" x="44" y="240" width="286" height="296"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tyv-UR-Ixg">
+                                <rect key="frame" x="0.0" y="20" width="104" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
                                 <state key="normal" title="back"/>
                                 <connections>
                                     <action selector="back:" destination="tYj-Uk-Gpl" eventType="touchUpInside" id="TLZ-xA-4Hs"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i9v-ec-51t">
-                                <rect key="frame" x="99" y="366" width="177" height="72"/>
+                                <rect key="frame" x="99" y="335" width="177" height="146"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="56"/>
                                 <state key="normal" title="Start">
@@ -638,10 +663,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="startegg.png" translatesAutoresizingMaskIntoConstraints="NO" id="gpw-IF-ndJ">
-                                <rect key="frame" x="44" y="240" width="286" height="296"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="lUi-7c-Qjv"/>
@@ -664,8 +685,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7egg.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="fjo-E0-jJJ">
+                                <rect key="frame" x="38" y="254" width="299" height="293"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CfR-lH-r5W">
-                                <rect key="frame" x="99" y="380" width="177" height="72"/>
+                                <rect key="frame" x="38" y="274" width="299" height="273"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="56"/>
                                 <state key="normal" title="Start">
@@ -676,13 +701,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="14b-01-KuZ">
-                                <rect key="frame" x="0.0" y="0.0" width="104" height="79"/>
+                                <rect key="frame" x="0.0" y="20" width="104" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
                                 <state key="normal" title="back"/>
-                                <connections>
-                                    <action selector="back:" destination="rn6-Yt-EWS" eventType="touchUpInside" id="8dP-MM-asA"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="01:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AZR-Hq-Yvp">
                                 <rect key="frame" x="0.0" y="76" width="375" height="150"/>
@@ -691,16 +713,26 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="startegg.png" translatesAutoresizingMaskIntoConstraints="NO" id="fjo-E0-jJJ">
-                                <rect key="frame" x="38" y="254" width="299" height="293"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dkt-fu-2ao">
+                                <rect key="frame" x="105" y="555" width="177" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="56"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" red="0.97211307849999995" green="0.2886924602" blue="0.0010849076089999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancele" destination="rn6-Yt-EWS" eventType="touchUpInside" id="pRs-in-F6H"/>
+                                    <segue destination="mUD-iA-2jt" kind="presentation" id="8Yx-ow-XSB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="B8k-E5-83t"/>
                     </view>
                     <connections>
+                        <outlet property="back2" destination="14b-01-KuZ" id="F1P-vH-mBr"/>
                         <outlet property="button" destination="CfR-lH-r5W" id="Saf-uu-jUp"/>
+                        <outlet property="cancele2" destination="dkt-fu-2ao" id="MLO-3H-8xe"/>
                         <outlet property="imageView" destination="fjo-E0-jJJ" id="Sld-oU-ggD"/>
                         <outlet property="lbTimer" destination="AZR-Hq-Yvp" id="phZ-5m-pna"/>
                     </connections>
@@ -729,9 +761,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iah-vi-qbR">
-                                <rect key="frame" x="0.0" y="0.0" width="104" height="79"/>
+                                <rect key="frame" x="0.0" y="20" width="104" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
                                 <state key="normal" title="back"/>
                                 <connections>
                                     <action selector="back:" destination="J4B-zQ-HLy" eventType="touchUpInside" id="gBL-7H-Tsh"/>
@@ -755,7 +787,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="中火にしてください" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bYi-86-swm">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="茹でてください" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bYi-86-swm">
                                 <rect key="frame" x="99" y="577" width="184" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -769,6 +801,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="＊時間はあくまで目安です。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jlu-XA-Gee">
+                                <rect key="frame" x="149" y="638" width="226" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="71O-SW-tMe"/>
@@ -777,12 +816,13 @@
                         <outlet property="button" destination="9Og-H7-ssH" id="0eN-XC-1hC"/>
                         <outlet property="label1" destination="mOG-6Q-F1y" id="3Zr-to-RbN"/>
                         <outlet property="label2" destination="bYi-86-swm" id="NRX-78-UKi"/>
+                        <outlet property="label3" destination="Jlu-XA-Gee" id="n3h-aH-HIg"/>
                         <outlet property="lbTimer" destination="D30-Kh-94g" id="h3s-QA-EMp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kys-PY-0dr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2246" y="1503"/>
+            <point key="canvasLocation" x="2245.5999999999999" y="1502.6986506746628"/>
         </scene>
         <!--Spa View Controller-->
         <scene sceneID="Irq-g8-n3W">
@@ -815,9 +855,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GW7-RT-sZb">
-                                <rect key="frame" x="0.0" y="0.0" width="104" height="79"/>
+                                <rect key="frame" x="0.0" y="20" width="104" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
                                 <state key="normal" title="back"/>
                                 <connections>
                                     <action selector="back:" destination="HiF-WJ-A3l" eventType="touchUpInside" id="vhU-6L-WBp"/>
@@ -830,7 +870,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="中火にしてください" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sM7-U8-HZR">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="茹でてください" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sM7-U8-HZR">
                                 <rect key="frame" x="99" y="570" width="184" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -844,6 +884,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="＊時間はあくまで目安です。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wC2-WK-tgg">
+                                <rect key="frame" x="149" y="637" width="226" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="5c7-vz-5Mf"/>
@@ -852,6 +899,7 @@
                         <outlet property="button" destination="m5y-X0-deX" id="C4Q-gS-vco"/>
                         <outlet property="label1" destination="BUw-97-G4b" id="NKx-Sh-UjW"/>
                         <outlet property="label2" destination="sM7-U8-HZR" id="LYe-dh-4iC"/>
+                        <outlet property="label3" destination="wC2-WK-tgg" id="haS-Li-sO7"/>
                         <outlet property="lbTimer" destination="bXj-XM-fr4" id="hB9-eO-dah"/>
                     </connections>
                 </viewController>
@@ -890,9 +938,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQH-Tc-NwG">
-                                <rect key="frame" x="0.0" y="0.0" width="104" height="79"/>
+                                <rect key="frame" x="0.0" y="20" width="104" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
                                 <state key="normal" title="back"/>
                                 <connections>
                                     <action selector="back:" destination="GKI-dL-XlG" eventType="touchUpInside" id="aMh-a6-AZi"/>
@@ -905,7 +953,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="中火にしてください" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A3h-gO-bL8">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="茹でてください" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A3h-gO-bL8">
                                 <rect key="frame" x="99" y="571" width="184" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -919,6 +967,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="＊時間はあくまで目安です。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jdH-K3-TrG">
+                                <rect key="frame" x="149" y="639" width="226" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Nmx-Bv-cjp"/>
@@ -927,6 +982,7 @@
                         <outlet property="button" destination="SVu-Vm-2Os" id="vYz-L4-qPo"/>
                         <outlet property="label1" destination="wZx-cK-M9r" id="v2G-fX-fU3"/>
                         <outlet property="label2" destination="A3h-gO-bL8" id="xVo-Ws-7ua"/>
+                        <outlet property="label3" destination="jdH-K3-TrG" id="blB-mr-M8F"/>
                         <outlet property="lbTimer" destination="5QF-TC-7jG" id="heY-8b-4Me"/>
                     </connections>
                 </viewController>
@@ -950,10 +1006,24 @@
                                 <rect key="frame" x="113" y="289" width="403" height="126"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ファルファッレ " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J7z-dZ-soZ">
+                                <rect key="frame" x="159" y="319" width="200" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fuji.png" translatesAutoresizingMaskIntoConstraints="NO" id="R80-VM-FPf">
                                 <rect key="frame" x="113" y="521" width="471" height="135"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="フリンジ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7vD-mQ-HBD">
+                                <rect key="frame" x="159" y="539" width="200" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Farfalle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xMm-ob-1xn">
                                 <rect key="frame" x="158" y="262" width="160" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -974,21 +1044,10 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NUK-03-1bI">
-                                <rect key="frame" x="3" y="78" width="110" height="69"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ApplesScriptDemo" family="Apples Script Demo" pointSize="43"/>
-                                <state key="normal" title="10min">
-                                    <color key="titleShadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="NmS-PX-ehJ" kind="presentation" id="j1o-7l-0jI"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g62-gu-mX3">
-                                <rect key="frame" x="-15" y="484" width="146" height="75"/>
+                                <rect key="frame" x="-16" y="581" width="146" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ApplesScriptDemo" family="Apples Script Demo" pointSize="43"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="43"/>
                                 <state key="normal" title="11min">
                                     <color key="titleShadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -997,9 +1056,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ARf-uW-4fj">
-                                <rect key="frame" x="-15" y="263" width="146" height="75"/>
+                                <rect key="frame" x="-16" y="340" width="146" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ApplesScriptDemo" family="Apples Script Demo" pointSize="43"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="43"/>
                                 <state key="normal" title="9min">
                                     <color key="titleShadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -1008,12 +1067,32 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5bw-AM-xVR">
-                                <rect key="frame" x="0.0" y="0.0" width="104" height="79"/>
+                                <rect key="frame" x="0.0" y="6" width="104" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
-                                <state key="normal" title="back"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
+                                <state key="normal" title="back">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="back:" destination="vxN-jc-j7E" eventType="touchUpInside" id="P9b-vw-oyy"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ペンネ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7n2-sa-PA7">
+                                <rect key="frame" x="159" y="102" width="97" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NUK-03-1bI">
+                                <rect key="frame" x="-1" y="134" width="116" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="43"/>
+                                <state key="normal" title="10min">
+                                    <color key="titleShadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="NmS-PX-ehJ" kind="presentation" id="j1o-7l-0jI"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1045,7 +1124,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z8K-yY-F7N">
-                                <rect key="frame" x="106" y="349" width="177" height="72"/>
+                                <rect key="frame" x="0.0" y="244" width="375" height="284"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="56"/>
                                 <state key="normal" title="Start">
@@ -1056,9 +1135,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdN-rf-XHa">
-                                <rect key="frame" x="0.0" y="0.0" width="104" height="79"/>
+                                <rect key="frame" x="0.0" y="20" width="104" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
                                 <state key="normal" title="back"/>
                                 <connections>
                                     <action selector="back:" destination="MMr-XV-1hJ" eventType="touchUpInside" id="3wH-oY-H4D"/>
@@ -1071,11 +1150,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="中火にしてください" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L2Y-EX-g9i">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="茹でてください" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L2Y-EX-g9i">
                                 <rect key="frame" x="103" y="591" width="184" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="＊時間はあくまで目安です。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Faz-fP-dDR">
+                                <rect key="frame" x="149" y="642" width="226" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -1086,6 +1172,7 @@
                         <outlet property="button" destination="Z8K-yY-F7N" id="Awc-aE-VY7"/>
                         <outlet property="label1" destination="1MZ-gL-qeb" id="I94-EK-SDo"/>
                         <outlet property="label2" destination="L2Y-EX-g9i" id="ebX-62-a3i"/>
+                        <outlet property="label3" destination="Faz-fP-dDR" id="c8K-Er-uug"/>
                         <outlet property="lbTimer" destination="rEu-ee-awp" id="bbV-5N-VfP"/>
                     </connections>
                 </viewController>
@@ -1113,7 +1200,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rdJ-16-q6X">
-                                <rect key="frame" x="99" y="349" width="177" height="72"/>
+                                <rect key="frame" x="0.0" y="236" width="375" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="56"/>
                                 <state key="normal" title="Start">
@@ -1124,9 +1211,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mM7-sY-sO3">
-                                <rect key="frame" x="0.0" y="0.0" width="104" height="79"/>
+                                <rect key="frame" x="0.0" y="20" width="104" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
                                 <state key="normal" title="back"/>
                                 <connections>
                                     <action selector="back:" destination="NmS-PX-ehJ" eventType="touchUpInside" id="fPr-DP-cnr"/>
@@ -1139,11 +1226,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="中火にしてください" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HwG-aY-9uq">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="茹でてください" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HwG-aY-9uq">
                                 <rect key="frame" x="96" y="597" width="184" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="＊時間はあくまで目安です。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Qm-XT-hZQ">
+                                <rect key="frame" x="149" y="643" width="226" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -1154,6 +1248,7 @@
                         <outlet property="button" destination="rdJ-16-q6X" id="42I-zo-uru"/>
                         <outlet property="label1" destination="UGf-5O-1Cn" id="JEJ-pg-gLL"/>
                         <outlet property="label2" destination="HwG-aY-9uq" id="d0N-jC-Sol"/>
+                        <outlet property="label3" destination="1Qm-XT-hZQ" id="Wxq-Yf-HjE"/>
                         <outlet property="lbTimer" destination="Du6-vQ-fSm" id="xQs-22-ran"/>
                     </connections>
                 </viewController>
@@ -1170,11 +1265,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fuji.png" translatesAutoresizingMaskIntoConstraints="NO" id="hAq-e1-YvF">
-                                <rect key="frame" x="-6" y="232" width="386" height="327"/>
+                                <rect key="frame" x="-6" y="217" width="386" height="327"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zJR-j2-Exc">
-                                <rect key="frame" x="93" y="339" width="177" height="72"/>
+                                <rect key="frame" x="0.0" y="212" width="380" height="327"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="56"/>
                                 <state key="normal" title="Start">
@@ -1185,33 +1280,40 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="11:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cdt-cT-CQw">
-                                <rect key="frame" x="5" y="74" width="375" height="150"/>
+                                <rect key="frame" x="5" y="70" width="375" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="NotoNastaliqUrdu" family="Noto Nastaliq Urdu" pointSize="102"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jjn-x0-CMa">
-                                <rect key="frame" x="0.0" y="0.0" width="104" height="79"/>
+                                <rect key="frame" x="0.0" y="20" width="104" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
                                 <state key="normal" title="back"/>
                                 <connections>
                                     <action selector="back:" destination="b8J-v4-XrB" eventType="touchUpInside" id="mbh-2g-m7U"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="沸騰したたっぷりのお湯に塩と入れて" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ga2-8u-a98">
-                                <rect key="frame" x="8" y="582" width="347" height="24"/>
+                                <rect key="frame" x="8" y="562" width="347" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="中火にしてください" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QGQ-KW-0Km">
-                                <rect key="frame" x="101" y="615" width="184" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="茹でてください" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QGQ-KW-0Km">
+                                <rect key="frame" x="101" y="594" width="184" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="＊時間はあくまで目安です。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wKj-Nu-NjG">
+                                <rect key="frame" x="149" y="643" width="226" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -1222,6 +1324,7 @@
                         <outlet property="button" destination="zJR-j2-Exc" id="Ij4-ju-AJG"/>
                         <outlet property="label1" destination="ga2-8u-a98" id="qE9-R6-iJb"/>
                         <outlet property="label2" destination="QGQ-KW-0Km" id="8cy-d2-YbP"/>
+                        <outlet property="label3" destination="wKj-Nu-NjG" id="yar-ue-kqX"/>
                         <outlet property="lbTimer" destination="Cdt-cT-CQw" id="Vng-MJ-UjQ"/>
                     </connections>
                 </viewController>
@@ -1274,14 +1377,14 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TXR-AA-cYF">
                                 <rect key="frame" x="0.0" y="0.0" width="104" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
                                 <state key="normal" title="back"/>
                                 <connections>
                                     <action selector="back:" destination="OzL-6M-BLR" eventType="touchUpInside" id="x1K-s2-8ug"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cEl-h0-Ehe">
-                                <rect key="frame" x="98" y="297" width="177" height="72"/>
+                                <rect key="frame" x="98" y="236" width="177" height="196"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="56"/>
                                 <state key="normal" title="Start">
@@ -1291,14 +1394,23 @@
                                     <action selector="countDownWithSender:" destination="OzL-6M-BLR" eventType="touchUpInside" id="vb8-y5-vIn"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="＊時間はあくまで目安です。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Um0-lv-yRu">
+                                <rect key="frame" x="149" y="638" width="226" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="IkD-uo-jxd"/>
                     </view>
                     <connections>
                         <outlet property="button" destination="cEl-h0-Ehe" id="TDE-x0-JpS"/>
+                        <outlet property="carrot" destination="K07-CC-L5i" id="dXM-vt-R1W"/>
                         <outlet property="label1" destination="I41-Yg-9LC" id="kSK-xw-saF"/>
                         <outlet property="label2" destination="FtI-Ll-m5L" id="PJm-D4-g8Y"/>
+                        <outlet property="label3" destination="Um0-lv-yRu" id="1D6-9m-zws"/>
                         <outlet property="lbTimer" destination="0Ly-Qv-D6P" id="2za-ao-xvx"/>
                     </connections>
                 </viewController>
@@ -1391,7 +1503,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VS9-M2-4n0">
-                                <rect key="frame" x="0.0" y="298" width="375" height="72"/>
+                                <rect key="frame" x="99" y="237" width="177" height="195"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="56"/>
                                 <state key="normal" title="Start">
@@ -1404,12 +1516,19 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5xM-r6-ZbB">
                                 <rect key="frame" x="0.0" y="0.0" width="104" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
                                 <state key="normal" title="back"/>
                                 <connections>
                                     <action selector="back:" destination="tPj-Sw-skK" eventType="touchUpInside" id="bOZ-LC-ddJ"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="＊時間はあくまで目安です。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3DC-XL-qH6">
+                                <rect key="frame" x="149" y="637" width="226" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="dsa-hU-tFa"/>
@@ -1418,7 +1537,9 @@
                         <outlet property="button" destination="Cf1-b2-uFA" id="llz-Fo-Xif"/>
                         <outlet property="label1" destination="Gyh-yx-ii1" id="tyy-gU-uFi"/>
                         <outlet property="label2" destination="azI-xx-9Wt" id="V8o-gV-Vgb"/>
+                        <outlet property="label3" destination="3DC-XL-qH6" id="UNF-sc-vFL"/>
                         <outlet property="lbTimer" destination="S0e-hA-Jv1" id="KPv-sY-Vg5"/>
+                        <outlet property="potato" destination="5ku-PQ-pGF" id="z65-NT-xXD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Elf-5D-Dhy" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1452,7 +1573,7 @@
                                 <rect key="frame" x="76" y="234" width="222" height="198"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="05:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k1W-O8-gH0">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="02:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k1W-O8-gH0">
                                 <rect key="frame" x="-3" y="-23" width="378" height="255"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
@@ -1460,7 +1581,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="切ってかぶるくらいの水を入れて" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tTe-1g-PFF">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="沸騰したお湯ををかぶるくらい入れて" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tTe-1g-PFF">
                                 <rect key="frame" x="0.0" y="467" width="375" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
@@ -1470,14 +1591,14 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fu1-S6-bzQ">
                                 <rect key="frame" x="0.0" y="0.0" width="104" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
                                 <state key="normal" title="back"/>
                                 <connections>
                                     <action selector="back:" destination="8xH-VS-H02" eventType="touchUpInside" id="qd5-AP-6HZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ISk-Pz-8xy">
-                                <rect key="frame" x="98" y="297" width="177" height="72"/>
+                                <rect key="frame" x="98" y="240" width="177" height="192"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="56"/>
                                 <state key="normal" title="Start">
@@ -1487,14 +1608,23 @@
                                     <action selector="countDownWithSender:" destination="8xH-VS-H02" eventType="touchUpInside" id="2ZA-ae-JKc"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="＊時間はあくまで目安です。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rpr-tw-feh">
+                                <rect key="frame" x="149" y="636" width="226" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="YSg-so-Bko"/>
                     </view>
                     <connections>
+                        <outlet property="Bro" destination="3Zs-Eh-Q2i" id="NbW-Dg-7Eh"/>
                         <outlet property="button" destination="ISk-Pz-8xy" id="bYp-99-TLm"/>
                         <outlet property="label1" destination="tTe-1g-PFF" id="TjE-G6-W8d"/>
                         <outlet property="label2" destination="bTD-hb-GaZ" id="lCs-Ax-Ab9"/>
+                        <outlet property="label3" destination="Rpr-tw-feh" id="44o-N4-Z2H"/>
                         <outlet property="lbTimer" destination="k1W-O8-gH0" id="y5Z-Oh-CTz"/>
                     </connections>
                 </viewController>
@@ -1502,21 +1632,204 @@
             </objects>
             <point key="canvasLocation" x="-786.39999999999998" y="-633.73313343328346"/>
         </scene>
+        <!--Three View Controller-->
+        <scene sceneID="fQg-jp-Dsr">
+            <objects>
+                <viewController id="1eC-od-Uz5" customClass="ThreeViewController" customModule="EggTimer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MxG-3y-uMg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xN2-o3-7YQ">
+                                <rect key="frame" x="4" y="248" width="366" height="347"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BSf-ei-VYf">
+                                <rect key="frame" x="0.0" y="20" width="104" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
+                                <state key="normal" title="back"/>
+                                <connections>
+                                    <action selector="back:" destination="1eC-od-Uz5" eventType="touchUpInside" id="lJe-3U-TsV"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="03:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zeu-lt-G7r">
+                                <rect key="frame" x="0.0" y="62" width="375" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="NotoNastaliqUrdu" family="Noto Nastaliq Urdu" pointSize="109"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="maru.png" translatesAutoresizingMaskIntoConstraints="NO" id="ah4-CW-KTf">
+                                <rect key="frame" x="76" y="254" width="222" height="198"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eQm-7z-eeU">
+                                <rect key="frame" x="99" y="254" width="177" height="192"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="56"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="countDownWithSender:" destination="1eC-od-Uz5" eventType="touchUpInside" id="iMR-bj-3fY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="sYl-hB-mgn"/>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="eQm-7z-eeU" id="wiy-FG-ffb"/>
+                        <outlet property="imageView" destination="xN2-o3-7YQ" id="ogw-jt-qys"/>
+                        <outlet property="lbTimer" destination="zeu-lt-G7r" id="VZo-Wa-s3P"/>
+                        <outlet property="maru" destination="ah4-CW-KTf" id="v5g-sU-Iua"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3JW-rj-BVL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-732" y="1584"/>
+        </scene>
+        <!--Five View Controller-->
+        <scene sceneID="aOq-Wd-lvM">
+            <objects>
+                <viewController id="t0c-oK-PUC" customClass="FiveViewController" customModule="EggTimer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="buL-bh-mJ6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZfQ-Id-SPr">
+                                <rect key="frame" x="4" y="248" width="366" height="347"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thf-Ii-73P">
+                                <rect key="frame" x="0.0" y="20" width="104" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
+                                <state key="normal" title="back"/>
+                                <connections>
+                                    <action selector="back:" destination="t0c-oK-PUC" eventType="touchUpInside" id="D5Q-21-8bK"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="05:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H0G-nq-o0o">
+                                <rect key="frame" x="0.0" y="62" width="375" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="NotoNastaliqUrdu" family="Noto Nastaliq Urdu" pointSize="109"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="maru.png" translatesAutoresizingMaskIntoConstraints="NO" id="16N-Su-bRR">
+                                <rect key="frame" x="76" y="254" width="222" height="198"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Bt-Td-0YP">
+                                <rect key="frame" x="99" y="254" width="177" height="192"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="56"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="countDownWithSender:" destination="t0c-oK-PUC" eventType="touchUpInside" id="g7g-mc-JCc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="xnN-Oz-qhN"/>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="3Bt-Td-0YP" id="j0s-mc-QdT"/>
+                        <outlet property="imageView" destination="ZfQ-Id-SPr" id="dpF-24-9CC"/>
+                        <outlet property="lbTimer" destination="H0G-nq-o0o" id="Ocn-oJ-LHa"/>
+                        <outlet property="maru" destination="16N-Su-bRR" id="e9a-jo-1bH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qbz-En-v06" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1401" y="1584"/>
+        </scene>
+        <!--Ten View Controller-->
+        <scene sceneID="wnU-r4-E6s">
+            <objects>
+                <viewController id="lwc-Uh-2Q0" customClass="TenViewController" customModule="EggTimer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vWZ-m6-2Hv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fwQ-r8-cIp">
+                                <rect key="frame" x="4" y="248" width="366" height="347"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ETw-1z-Laf">
+                                <rect key="frame" x="0.0" y="20" width="104" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
+                                <state key="normal" title="back"/>
+                                <connections>
+                                    <action selector="back:" destination="lwc-Uh-2Q0" eventType="touchUpInside" id="Cky-L6-m2o"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ofi-l5-vQU">
+                                <rect key="frame" x="0.0" y="62" width="375" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="NotoNastaliqUrdu" family="Noto Nastaliq Urdu" pointSize="109"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="maru.png" translatesAutoresizingMaskIntoConstraints="NO" id="yGd-IS-hh7">
+                                <rect key="frame" x="76" y="254" width="222" height="198"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jfi-2z-xtF">
+                                <rect key="frame" x="99" y="254" width="177" height="192"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="56"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="countDownWithSender:" destination="lwc-Uh-2Q0" eventType="touchUpInside" id="fgh-27-Eod"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="AO1-Ji-r7N"/>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="Jfi-2z-xtF" id="Dks-W4-JbS"/>
+                        <outlet property="imageView" destination="fwQ-r8-cIp" id="hGz-xq-0fw"/>
+                        <outlet property="lbTimer" destination="Ofi-l5-vQU" id="Sz5-dj-PUl"/>
+                        <outlet property="maru" destination="yGd-IS-hh7" id="NJM-zW-QlL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="01a-6S-J1c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2102" y="1584"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="12egg.png" width="181" height="181"/>
-        <image name="14egg.png" width="182" height="182"/>
+        <image name="12egg.PNG" width="184" height="184"/>
+        <image name="14egg.PNG" width="184" height="184"/>
         <image name="2penne.png" width="2600" height="1592"/>
-        <image name="9egg.png" width="181" height="181"/>
+        <image name="7egg.PNG" width="184" height="184"/>
+        <image name="9egg.PNG" width="184" height="184"/>
         <image name="Carrot1.png" width="1920" height="1278"/>
         <image name="Pasta1.png" width="4000" height="2667"/>
         <image name="blur.png" width="3600" height="2400"/>
+        <image name="boiledegg.png" width="256" height="256"/>
+        <image name="brokkori.png" width="256" height="256"/>
         <image name="far.png" width="5184" height="3456"/>
         <image name="fuji.png" width="4226" height="2988"/>
+        <image name="llongpasta.png" width="256" height="256"/>
         <image name="maru.png" width="750" height="685"/>
+        <image name="ninjin.png" width="256" height="256"/>
         <image name="penne.png" width="2077" height="1584"/>
+        <image name="potato.png" width="256" height="256"/>
         <image name="potato1.png" width="3720" height="2604"/>
-        <image name="startegg.png" width="182" height="182"/>
+        <image name="shortpasta.png" width="256" height="256"/>
         <image name="ミートソースパスタ.png" width="3872" height="2592"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="vZl-hl-VKz"/>
+    </inferredMetricsTieBreakers>
 </document>
