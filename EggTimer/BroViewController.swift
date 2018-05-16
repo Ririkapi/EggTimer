@@ -98,6 +98,10 @@ class BroViewController: UIViewController {
             
             let okAction = UIAlertAction(title: "OK", style: .destructive) { (action:UIAlertAction) in
                 self.audioPlayer.stop()
+                let storyboard: UIStoryboard = self.storyboard!
+                let nextView = storyboard.instantiateViewController(withIdentifier: "View")
+                self.present(nextView, animated: true, completion: nil)
+                
             }
             
             alert.addAction(okAction)
