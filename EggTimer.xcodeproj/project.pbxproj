@@ -24,6 +24,14 @@
 		F0087B3820921EF700AA726A /* EggViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0087B3720921EF700AA726A /* EggViewController.swift */; };
 		F00A8C7820A5F04900226C7A /* BroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00A8C7720A5F04900226C7A /* BroViewController.swift */; };
 		F00A8C7A20A5F1D000226C7A /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00A8C7920A5F1D000226C7A /* TimerViewController.swift */; };
+		F00BA4F820AC8CA100863605 /* 13egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F00BA4F020AC8C9B00863605 /* 13egg.PNG */; };
+		F00BA4F920AC8CA100863605 /* 10egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F00BA4F120AC8C9B00863605 /* 10egg.PNG */; };
+		F00BA4FA20AC8CA100863605 /* 11egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F00BA4F220AC8C9C00863605 /* 11egg.PNG */; };
+		F00BA4FB20AC8CA100863605 /* 7egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F00BA4F320AC8C9C00863605 /* 7egg.PNG */; };
+		F00BA4FC20AC8CA100863605 /* 12egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F00BA4F420AC8C9D00863605 /* 12egg.PNG */; };
+		F00BA4FD20AC8CA100863605 /* 14egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F00BA4F520AC8C9E00863605 /* 14egg.PNG */; };
+		F00BA4FE20AC8CA100863605 /* 8egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F00BA4F620AC8C9F00863605 /* 8egg.PNG */; };
+		F00BA4FF20AC8CA100863605 /* 9egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F00BA4F720AC8C9F00863605 /* 9egg.PNG */; };
 		F00F8EC920A40D08001BEE4E /* fuji.png in Resources */ = {isa = PBXBuildFile; fileRef = F00F8EC820A40D08001BEE4E /* fuji.png */; };
 		F00F8ECB20A40D80001BEE4E /* far.png in Resources */ = {isa = PBXBuildFile; fileRef = F00F8ECA20A40D80001BEE4E /* far.png */; };
 		F00F8ECD20A40FCD001BEE4E /* penne.png in Resources */ = {isa = PBXBuildFile; fileRef = F00F8ECC20A40FCD001BEE4E /* penne.png */; };
@@ -59,14 +67,6 @@
 		F0A373F820A8A5D700D89876 /* shortpasta.png in Resources */ = {isa = PBXBuildFile; fileRef = F0A373F120A8A5D600D89876 /* shortpasta.png */; };
 		F0A373F920A8A5D700D89876 /* brokkori.png in Resources */ = {isa = PBXBuildFile; fileRef = F0A373F220A8A5D600D89876 /* brokkori.png */; };
 		F0A373FA20A8A5D700D89876 /* potato.png in Resources */ = {isa = PBXBuildFile; fileRef = F0A373F320A8A5D700D89876 /* potato.png */; };
-		F0A3740920A9429D00D89876 /* 13egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F0A3740120A9429B00D89876 /* 13egg.PNG */; };
-		F0A3740A20A9429D00D89876 /* 10egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F0A3740220A9429C00D89876 /* 10egg.PNG */; };
-		F0A3740B20A9429D00D89876 /* 11egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F0A3740320A9429C00D89876 /* 11egg.PNG */; };
-		F0A3740C20A9429D00D89876 /* 7egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F0A3740420A9429C00D89876 /* 7egg.PNG */; };
-		F0A3740D20A9429D00D89876 /* 12egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F0A3740520A9429C00D89876 /* 12egg.PNG */; };
-		F0A3740E20A9429D00D89876 /* 14egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F0A3740620A9429C00D89876 /* 14egg.PNG */; };
-		F0A3740F20A9429D00D89876 /* 8egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F0A3740720A9429D00D89876 /* 8egg.PNG */; };
-		F0A3741020A9429D00D89876 /* 9egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F0A3740820A9429D00D89876 /* 9egg.PNG */; };
 		F0A3741C20A9CBEB00D89876 /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A3741B20A9CBEB00D89876 /* OneViewController.swift */; };
 		F0A3741E20A9CBFF00D89876 /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A3741D20A9CBFF00D89876 /* ThreeViewController.swift */; };
 		F0A3742020A9CC1000D89876 /* FiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A3741F20A9CC1000D89876 /* FiveViewController.swift */; };
@@ -102,6 +102,14 @@
 		F0087B3720921EF700AA726A /* EggViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggViewController.swift; sourceTree = "<group>"; };
 		F00A8C7720A5F04900226C7A /* BroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroViewController.swift; sourceTree = "<group>"; };
 		F00A8C7920A5F1D000226C7A /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		F00BA4F020AC8C9B00863605 /* 13egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 13egg.PNG; path = ../../../Downloads/13egg.PNG; sourceTree = "<group>"; };
+		F00BA4F120AC8C9B00863605 /* 10egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 10egg.PNG; path = ../../../Downloads/10egg.PNG; sourceTree = "<group>"; };
+		F00BA4F220AC8C9C00863605 /* 11egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 11egg.PNG; path = ../../../Downloads/11egg.PNG; sourceTree = "<group>"; };
+		F00BA4F320AC8C9C00863605 /* 7egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 7egg.PNG; path = ../../../Downloads/7egg.PNG; sourceTree = "<group>"; };
+		F00BA4F420AC8C9D00863605 /* 12egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 12egg.PNG; path = ../../../Downloads/12egg.PNG; sourceTree = "<group>"; };
+		F00BA4F520AC8C9E00863605 /* 14egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 14egg.PNG; path = ../../../Downloads/14egg.PNG; sourceTree = "<group>"; };
+		F00BA4F620AC8C9F00863605 /* 8egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8egg.PNG; path = ../../../Downloads/8egg.PNG; sourceTree = "<group>"; };
+		F00BA4F720AC8C9F00863605 /* 9egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 9egg.PNG; path = ../../../Downloads/9egg.PNG; sourceTree = "<group>"; };
 		F00F8EC820A40D08001BEE4E /* fuji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fuji.png; sourceTree = "<group>"; };
 		F00F8ECA20A40D80001BEE4E /* far.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = far.png; sourceTree = "<group>"; };
 		F00F8ECC20A40FCD001BEE4E /* penne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = penne.png; path = ../../../Downloads/penne.png; sourceTree = "<group>"; };
@@ -137,14 +145,6 @@
 		F0A373F120A8A5D600D89876 /* shortpasta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shortpasta.png; sourceTree = "<group>"; };
 		F0A373F220A8A5D600D89876 /* brokkori.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brokkori.png; sourceTree = "<group>"; };
 		F0A373F320A8A5D700D89876 /* potato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = potato.png; sourceTree = "<group>"; };
-		F0A3740120A9429B00D89876 /* 13egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13egg.PNG; sourceTree = "<group>"; };
-		F0A3740220A9429C00D89876 /* 10egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10egg.PNG; sourceTree = "<group>"; };
-		F0A3740320A9429C00D89876 /* 11egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11egg.PNG; sourceTree = "<group>"; };
-		F0A3740420A9429C00D89876 /* 7egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7egg.PNG; sourceTree = "<group>"; };
-		F0A3740520A9429C00D89876 /* 12egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 12egg.PNG; path = ../../../Downloads/12egg.PNG; sourceTree = "<group>"; };
-		F0A3740620A9429C00D89876 /* 14egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 14egg.PNG; path = ../../../Downloads/14egg.PNG; sourceTree = "<group>"; };
-		F0A3740720A9429D00D89876 /* 8egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8egg.PNG; sourceTree = "<group>"; };
-		F0A3740820A9429D00D89876 /* 9egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 9egg.PNG; path = ../../../Downloads/9egg.PNG; sourceTree = "<group>"; };
 		F0A3741B20A9CBEB00D89876 /* OneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
 		F0A3741D20A9CBFF00D89876 /* ThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
 		F0A3741F20A9CC1000D89876 /* FiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveViewController.swift; sourceTree = "<group>"; };
@@ -208,6 +208,14 @@
 		F0087AF8208DFCF400AA726A /* EggTimer */ = {
 			isa = PBXGroup;
 			children = (
+				F00BA4F320AC8C9C00863605 /* 7egg.PNG */,
+				F00BA4F620AC8C9F00863605 /* 8egg.PNG */,
+				F00BA4F720AC8C9F00863605 /* 9egg.PNG */,
+				F00BA4F120AC8C9B00863605 /* 10egg.PNG */,
+				F00BA4F220AC8C9C00863605 /* 11egg.PNG */,
+				F00BA4F420AC8C9D00863605 /* 12egg.PNG */,
+				F00BA4F020AC8C9B00863605 /* 13egg.PNG */,
+				F00BA4F520AC8C9E00863605 /* 14egg.PNG */,
 				F0073DA020AB5E9D00957DCC /* icon-2x.png */,
 				F0073DA520AB5E9E00957DCC /* icon-3x.png */,
 				F0073DA220AB5E9E00957DCC /* icon2.png */,
@@ -222,14 +230,6 @@
 				F0A3742320A9CCC800D89876 /* kiiro.png */,
 				F0A3742620A9CCC800D89876 /* midori.png */,
 				F0A3742420A9CCC800D89876 /* mizuiro.png */,
-				F0A3740420A9429C00D89876 /* 7egg.PNG */,
-				F0A3740720A9429D00D89876 /* 8egg.PNG */,
-				F0A3740820A9429D00D89876 /* 9egg.PNG */,
-				F0A3740220A9429C00D89876 /* 10egg.PNG */,
-				F0A3740320A9429C00D89876 /* 11egg.PNG */,
-				F0A3740520A9429C00D89876 /* 12egg.PNG */,
-				F0A3740120A9429B00D89876 /* 13egg.PNG */,
-				F0A3740620A9429C00D89876 /* 14egg.PNG */,
 				F0087AFD208DFCF400AA726A /* Main.storyboard */,
 				F01258CF20A32D060088D41C /* 目覚ましアラーム.mp3 */,
 				F0A3743120AAEC7000D89876 /* icon.png */,
@@ -316,7 +316,7 @@
 				TargetAttributes = {
 					F0087AF5208DFCF400AA726A = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -352,28 +352,26 @@
 				F0073DA620AB5E9E00957DCC /* icon-2x.png in Resources */,
 				F0073D9F20AB4B6500957DCC /* Magnolia Script.otf in Resources */,
 				F00F8ECB20A40D80001BEE4E /* far.png in Resources */,
+				F00BA4FC20AC8CA100863605 /* 12egg.PNG in Resources */,
 				F0A373F720A8A5D700D89876 /* ninjin.png in Resources */,
 				F0A3742820A9CCC900D89876 /* kiiro.png in Resources */,
-				F0A3740F20A9429D00D89876 /* 8egg.PNG in Resources */,
-				F0A3740E20A9429D00D89876 /* 14egg.PNG in Resources */,
 				F0A3742C20A9CCC900D89876 /* aka.png in Resources */,
-				F0A3740A20A9429D00D89876 /* 10egg.PNG in Resources */,
-				F0A3740C20A9429D00D89876 /* 7egg.PNG in Resources */,
 				F0A373F920A8A5D700D89876 /* brokkori.png in Resources */,
 				F0A373FA20A8A5D700D89876 /* potato.png in Resources */,
+				F00BA4FB20AC8CA100863605 /* 7egg.PNG in Resources */,
 				F01258A620A1EE910088D41C /* ミートソースパスタ.png in Resources */,
 				F0073D9D20AB4AFF00957DCC /* Magnolia Script.pdf in Resources */,
-				F0A3740D20A9429D00D89876 /* 12egg.PNG in Resources */,
 				F01258D020A32D060088D41C /* 目覚ましアラーム.mp3 in Resources */,
 				F00F8ED320A47773001BEE4E /* potato1.png in Resources */,
 				F0073DA920AB5E9E00957DCC /* icon2x.png in Resources */,
 				F01257B7209ABCFC0088D41C /* Apples Script Demo.ttf in Resources */,
 				F0087B04208DFCF400AA726A /* LaunchScreen.storyboard in Resources */,
-				F0A3740B20A9429D00D89876 /* 11egg.PNG in Resources */,
 				F0A3742920A9CCC900D89876 /* mizuiro.png in Resources */,
 				F0A3742A20A9CCC900D89876 /* ao.png in Resources */,
 				F0087B01208DFCF400AA726A /* Assets.xcassets in Resources */,
+				F00BA4FA20AC8CA100863605 /* 11egg.PNG in Resources */,
 				F00F8ED920A52654001BEE4E /* blur.png in Resources */,
+				F00BA4FF20AC8CA100863605 /* 9egg.PNG in Resources */,
 				F01258DC20A349B80088D41C /* Pasta1.png in Resources */,
 				F0073DA820AB5E9E00957DCC /* icon2.png in Resources */,
 				F01258D820A3400E0088D41C /* Carrot1.png in Resources */,
@@ -382,19 +380,21 @@
 				F01257B5209ABCC20088D41C /* EchinosParkScript_PERSONAL_USE_ONLY.ttf in Resources */,
 				F0A373F520A8A5D700D89876 /* medamayaki.png in Resources */,
 				F0A373F820A8A5D700D89876 /* shortpasta.png in Resources */,
+				F00BA4F920AC8CA100863605 /* 10egg.PNG in Resources */,
 				F0073DAA20AB5E9E00957DCC /* icon3x.png in Resources */,
+				F00BA4F820AC8CA100863605 /* 13egg.PNG in Resources */,
 				F00F8ED120A41135001BEE4E /* 2penne.png in Resources */,
+				F00BA4FE20AC8CA100863605 /* 8egg.PNG in Resources */,
 				F00F8ECD20A40FCD001BEE4E /* penne.png in Resources */,
 				F0087AFF208DFCF400AA726A /* Main.storyboard in Resources */,
 				F01257B9209ABDBF0088D41C /* Magnolia Script.otf in Resources */,
+				F00BA4FD20AC8CA100863605 /* 14egg.PNG in Resources */,
 				F0A3742B20A9CCC900D89876 /* midori.png in Resources */,
-				F0A3740920A9429D00D89876 /* 13egg.PNG in Resources */,
 				F00F8EC920A40D08001BEE4E /* fuji.png in Resources */,
 				F0A373F420A8A5D700D89876 /* llongpasta.png in Resources */,
 				F0A3743220AAEC7000D89876 /* icon.png in Resources */,
 				F0A373F620A8A5D700D89876 /* boiledegg.png in Resources */,
 				F00F8ED720A47D48001BEE4E /* maru.png in Resources */,
-				F0A3741020A9429D00D89876 /* 9egg.PNG in Resources */,
 				F0073DAB20AB5E9E00957DCC /* icon-3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -586,15 +586,15 @@
 			baseConfigurationReference = 8B339DA67FA49209C1E1D251 /* Pods-EggTimer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2K446D59RQ;
 				INFOPLIST_FILE = EggTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.lifeistech.L10EggTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "b79947a2-517f-411d-89cb-4243a77df173";
-				PROVISIONING_PROFILE_SPECIFIER = "L10-Matsuda-Distribution";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -606,8 +606,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2K446D59RQ;
 				INFOPLIST_FILE = EggTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.lifeistech.L10EggTimer;

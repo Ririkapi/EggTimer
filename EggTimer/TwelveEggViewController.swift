@@ -88,26 +88,6 @@ class TwelveEggViewController: UIViewController {
             audioPlayer.play()
             
         }
-        
-        if self.lbTimer.text == "00:10"{
-            let trigger: UNNotificationTrigger
-            trigger = UNTimeIntervalNotificationTrigger(timeInterval: 10, repeats: false)
-            
-            let content = UNMutableNotificationContent()
-            content.title = "12minutes"
-            content.body = "Timer Done!"
-            content.sound = UNNotificationSound.default()
-            
-            
-            let request = UNNotificationRequest(identifier: "normal",
-                                                content: content,
-                                                trigger: trigger)
-            
-            
-            UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
-        }
-        
-        
         let img8 = UIImage(named:"8egg.PNG")!
         if self.lbTimer.text == "11:59"{
             imageView.image = img8
@@ -128,7 +108,25 @@ class TwelveEggViewController: UIViewController {
         }
         let img12 = UIImage(named:"12egg.PNG")!
         if self.lbTimer.text == "00:00"{
-        imageView.image = img12
+            imageView.image = img12
+        }
+        
+        if self.lbTimer.text == "00:10"{
+            let trigger: UNNotificationTrigger
+            trigger = UNTimeIntervalNotificationTrigger(timeInterval: 10, repeats: false)
+            
+            let content = UNMutableNotificationContent()
+            content.title = "12minutes"
+            content.body = "Timer Done!"
+            content.sound = UNNotificationSound.default()
+            
+            
+            let request = UNNotificationRequest(identifier: "normal",
+                                                content: content,
+                                                trigger: trigger)
+            
+            
+            UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
         }
     }
     
