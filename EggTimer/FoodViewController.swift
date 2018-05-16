@@ -39,13 +39,13 @@ class FoodViewController: UIViewController {
                 
                 if granted {
                     
-                    print("通知")
+                    
                     
                     let center = UNUserNotificationCenter.current()
                     center.delegate = self as? UNUserNotificationCenterDelegate
                     
                 } else {
-                    print("通知拒否")
+                   
                 }
             })
             
@@ -66,14 +66,13 @@ class FoodViewController: UIViewController {
                 }
                 
                 if granted {
-                    
-                    print("通知")
+                 
                     
                     let center = UNUserNotificationCenter.current()
                     center.delegate = self as? UNUserNotificationCenterDelegate
                     
                 } else {
-                    print("通知拒否")
+                   
                 }
             })
             
@@ -95,13 +94,13 @@ class FoodViewController: UIViewController {
                 
                 if granted {
                     
-                    print("通知")
+                    
                     
                     let center = UNUserNotificationCenter.current()
                     center.delegate = self as? UNUserNotificationCenterDelegate
                     
                 } else {
-                    print("通知拒否")
+                  
                 }
             })
             
@@ -123,13 +122,13 @@ class FoodViewController: UIViewController {
                 
                 if granted {
                     
-                    print("通知")
+                   
                     
                     let center = UNUserNotificationCenter.current()
                     center.delegate = self as? UNUserNotificationCenterDelegate
                     
                 } else {
-                    print("通知拒否")
+                   
                 }
             })
             
@@ -151,13 +150,13 @@ class FoodViewController: UIViewController {
                 
                 if granted {
                     
-                    print("通知")
+                    
                     
                     let center = UNUserNotificationCenter.current()
                     center.delegate = self as? UNUserNotificationCenterDelegate
                     
                 } else {
-                    print("通知拒否")
+                  
                 }
             })
             
@@ -179,13 +178,13 @@ class FoodViewController: UIViewController {
                 
                 if granted {
                     
-                    print("通知")
+                   
                     
                     let center = UNUserNotificationCenter.current()
                     center.delegate = self as? UNUserNotificationCenterDelegate
                     
                 } else {
-                    print("通知拒否")
+                  
                 }
             })
             

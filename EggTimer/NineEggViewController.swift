@@ -22,7 +22,7 @@ class NineEggViewController: UIViewController {
     @IBOutlet weak var cancele2: UIButton!
     
     
-    let noodleTime: TimeInterval = 60 * 1
+    let noodleTime: TimeInterval = 60 * 9
     
     @IBOutlet weak var imageView: UIImageView!
     
@@ -72,8 +72,8 @@ class NineEggViewController: UIViewController {
         if self.lbTimer.text == "00:00"{
             timer.invalidate()
             
-            let alert = UIAlertController(title: "Finish", message:
-                "9min passed!", preferredStyle: .alert)
+            let alert = UIAlertController(title: "9minutes", message:
+                "Timer Done!", preferredStyle: .alert)
            
             let okAction = UIAlertAction(title: "OK", style: .destructive) { (action:UIAlertAction) in
                 self.audioPlayer.stop()
@@ -96,8 +96,8 @@ class NineEggViewController: UIViewController {
             trigger = UNTimeIntervalNotificationTrigger(timeInterval: 10, repeats: false)
             
             let content = UNMutableNotificationContent()
-            content.title = "Finish"
-            content.body = "9minutes passed!"
+            content.title = "9minutes"
+            content.body = "Timer Done!"
             content.sound = UNNotificationSound.default()
             
             

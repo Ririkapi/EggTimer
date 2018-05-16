@@ -91,8 +91,8 @@ class ThreeViewController: UIViewController {
             UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
             
             
-            let alert = UIAlertController(title: "Finish", message:
-                "3minutes passed!", preferredStyle: .alert)
+            let alert = UIAlertController(title: "3minutes", message:
+                "Timer Done!", preferredStyle: .alert)
             
             let okAction = UIAlertAction(title: "OK", style: .destructive) { (action:UIAlertAction) in
                 self.audioPlayer.stop()
@@ -113,8 +113,8 @@ class ThreeViewController: UIViewController {
             trigger = UNTimeIntervalNotificationTrigger(timeInterval: 10, repeats: false)
             
             let content = UNMutableNotificationContent()
-            content.title = "Finish"
-            content.body = "9minutes passed!"
+            content.title = "3minutes"
+            content.body = "Timer Done!"
             content.sound = UNNotificationSound.default()
             
             

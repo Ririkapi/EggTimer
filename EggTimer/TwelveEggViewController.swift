@@ -70,24 +70,9 @@ class TwelveEggViewController: UIViewController {
         if self.lbTimer.text == "00:00"{
             timer.invalidate()
 
-            let trigger: UNNotificationTrigger
-            trigger = UNTimeIntervalNotificationTrigger(timeInterval: 10, repeats: false)
             
-            let content = UNMutableNotificationContent()
-            content.title = "Finish"
-            content.body = "12min passed!"
-            content.sound = UNNotificationSound.default()
-            
-            
-            let request = UNNotificationRequest(identifier: "normal",
-                                                content: content,
-                                                trigger: trigger)
-            
-            
-            UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
-
-            let alert = UIAlertController(title: "Finish", message:
-                "12min passed!", preferredStyle: .alert)
+            let alert = UIAlertController(title: "12minutes", message:
+                "Timer Done!", preferredStyle: .alert)
             
             let okAction = UIAlertAction(title: "OK", style: .destructive) { (action:UIAlertAction) in
                 self.audioPlayer.stop()
@@ -109,8 +94,8 @@ class TwelveEggViewController: UIViewController {
             trigger = UNTimeIntervalNotificationTrigger(timeInterval: 10, repeats: false)
             
             let content = UNMutableNotificationContent()
-            content.title = "Finish"
-            content.body = "9minutes passed!"
+            content.title = "12minutes"
+            content.body = "Timer Done!"
             content.sound = UNNotificationSound.default()
             
             
