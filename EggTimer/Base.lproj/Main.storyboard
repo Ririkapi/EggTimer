@@ -56,13 +56,13 @@
                                 </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9egg.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="WDG-2M-mdL">
-                                <rect key="frame" x="57" y="299" width="300" height="300"/>
+                                <rect key="frame" x="57" y="295" width="300" height="242"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Jc-M4-xf3">
-                                <rect key="frame" x="57" y="378" width="300" height="221"/>
+                                <rect key="frame" x="90" y="348" width="235" height="188"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="55"/>
+                                <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="45"/>
                                 <state key="normal" title="Start">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -79,7 +79,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l3R-MX-5xi">
-                                <rect key="frame" x="57" y="607" width="300" height="58"/>
+                                <rect key="frame" x="66" y="548" width="291" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.79757355688195508" blue="0.25862230782966367" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="42"/>
@@ -200,7 +200,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UMJ-Of-E0C">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UMJ-Of-E0C">
                                 <rect key="frame" x="0.0" y="200" width="414" height="452"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="01:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U14-Jk-h5L">
@@ -312,30 +312,29 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ninjin.png" translatesAutoresizingMaskIntoConstraints="NO" id="cla-gX-hOj">
-                                <rect key="frame" x="216" y="307" width="175" height="175"/>
+                                <rect key="frame" x="216" y="303" width="143" height="143"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97211307849999995" green="0.61408121289999995" blue="0.33213411209999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f7W-8W-XFb">
-                                <rect key="frame" x="216" y="307" width="175" height="175"/>
+                                <rect key="frame" x="216" y="312" width="143" height="134"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="46"/>
-                                <state key="normal" title="Carrot"/>
                                 <connections>
                                     <action selector="carrot" destination="xRI-a1-gqx" eventType="touchUpInside" id="baE-lg-JIm"/>
                                     <segue destination="OzL-6M-BLR" kind="presentation" id="PKr-89-vTd"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="boiledegg.png" translatesAutoresizingMaskIntoConstraints="NO" id="TbN-Fn-5Fw">
-                                <rect key="frame" x="33" y="308" width="175" height="175"/>
+                                <rect key="frame" x="58" y="303" width="143" height="143"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99111479920000001" green="0.76256719248275195" blue="0.096307882871567899" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KWK-M3-tPR">
-                                <rect key="frame" x="33" y="333" width="161" height="150"/>
+                                <rect key="frame" x="58" y="307" width="143" height="139"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="50"/>
-                                <state key="normal" title="  Egg ">
+                                <state key="normal">
                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -344,30 +343,30 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="llongpasta.png" translatesAutoresizingMaskIntoConstraints="NO" id="JMP-aY-Ocd">
-                                <rect key="frame" x="33" y="125" width="175" height="175"/>
+                                <rect key="frame" x="58" y="140" width="143" height="143"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97211307849999995" green="0.37783366812472741" blue="0.12439227896378097" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lmg-31-TeT">
-                                <rect key="frame" x="36" y="125" width="175" height="175"/>
+                                <rect key="frame" x="58" y="179" width="146" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="32"/>
-                                <state key="normal" title="Long Pasta"/>
+                                <state key="normal" title="Long "/>
                                 <connections>
                                     <action selector="long" destination="xRI-a1-gqx" eventType="touchUpInside" id="3tv-cm-ybv"/>
                                     <segue destination="l9D-vV-4Sh" kind="presentation" id="vRu-JX-51t"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brokkori.png" translatesAutoresizingMaskIntoConstraints="NO" id="U7d-4W-8uD">
-                                <rect key="frame" x="33" y="492" width="175" height="175"/>
+                                <rect key="frame" x="55" y="468" width="146" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.29912825469999998" green="0.66404226040000003" blue="0.52111428709999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sdk-Bh-NTQ">
-                                <rect key="frame" x="33" y="491" width="175" height="175"/>
+                                <rect key="frame" x="55" y="475" width="146" height="136"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="46"/>
-                                <state key="normal" title="Broccoli">
+                                <state key="normal">
                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -376,33 +375,32 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shortpasta.png" translatesAutoresizingMaskIntoConstraints="NO" id="WQV-EV-UKP">
-                                <rect key="frame" x="216" y="125" width="175" height="175"/>
+                                <rect key="frame" x="216" y="140" width="143" height="143"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97211307849999995" green="0.64748781407216738" blue="0.8752841241094732" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C8V-i3-D0I">
-                                <rect key="frame" x="218" y="124" width="175" height="175"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="32"/>
-                                <state key="normal" title="Short Pasta"/>
-                                <connections>
-                                    <action selector="short" destination="xRI-a1-gqx" eventType="touchUpInside" id="R6J-ob-dZT"/>
-                                    <segue destination="vxN-jc-j7E" kind="presentation" id="vbO-YA-FJ6"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="potato.png" translatesAutoresizingMaskIntoConstraints="NO" id="fju-5S-aZs">
-                                <rect key="frame" x="216" y="491" width="175" height="175"/>
+                                <rect key="frame" x="216" y="469" width="144" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.86953529792746109" green="0.55241866590488542" blue="0.30046016573194839" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KGp-Mp-Jn5">
-                                <rect key="frame" x="216" y="491" width="175" height="175"/>
+                                <rect key="frame" x="216" y="469" width="144" height="143"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="46"/>
-                                <state key="normal" title="Potato"/>
                                 <connections>
                                     <action selector="potato" destination="xRI-a1-gqx" eventType="touchUpInside" id="kdA-eU-LES"/>
                                     <segue destination="tPj-Sw-skK" kind="presentation" id="Bkj-vy-x2O"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C8V-i3-D0I">
+                                <rect key="frame" x="217" y="140" width="143" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="32"/>
+                                <state key="normal" title="Short "/>
+                                <connections>
+                                    <action selector="short" destination="xRI-a1-gqx" eventType="touchUpInside" id="R6J-ob-dZT"/>
+                                    <segue destination="vxN-jc-j7E" kind="presentation" id="vbO-YA-FJ6"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -457,9 +455,11 @@
                                     <segue destination="tYj-Uk-Gpl" kind="presentation" id="Gue-8m-qZm"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0D9-tU-KOg">
-                                <rect key="frame" x="0.0" y="20" width="104" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0D9-tU-KOg">
+                                <rect key="frame" x="0.0" y="20" width="104" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="104" id="Kom-Ln-e3A"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
                                 <state key="normal" title="back"/>
                                 <connections>
@@ -518,6 +518,10 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0D9-tU-KOg" firstAttribute="leading" secondItem="FaE-KA-pO2" secondAttribute="leading" id="5dE-UH-YOv"/>
+                            <constraint firstItem="0D9-tU-KOg" firstAttribute="top" secondItem="FaE-KA-pO2" secondAttribute="top" id="ivI-ML-WY1"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="FaE-KA-pO2"/>
                     </view>
                 </viewController>
@@ -533,9 +537,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MHM-pk-P8y">
-                                <rect key="frame" x="0.0" y="20" width="104" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MHM-pk-P8y">
+                                <rect key="frame" x="0.0" y="20" width="104" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="104" id="IId-oa-gxO"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
                                 <state key="normal" title="back"/>
                                 <connections>
@@ -578,6 +584,10 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="MHM-pk-P8y" firstAttribute="leading" secondItem="GDv-fG-Yrv" secondAttribute="leading" id="HuB-aa-c72"/>
+                            <constraint firstItem="MHM-pk-P8y" firstAttribute="top" secondItem="GDv-fG-Yrv" secondAttribute="top" id="atN-Bt-SIG"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="GDv-fG-Yrv"/>
                     </view>
                     <connections>
@@ -680,8 +690,8 @@
                                     <segue destination="GKI-dL-XlG" kind="presentation" id="6xv-D1-4iV"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ミートソースパスタ.png" translatesAutoresizingMaskIntoConstraints="NO" id="CPh-Pb-FPj">
-                                <rect key="frame" x="-66" y="417" width="537" height="319"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="meat.png" translatesAutoresizingMaskIntoConstraints="NO" id="CPh-Pb-FPj">
+                                <rect key="frame" x="0.0" y="417" width="414" height="319"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Spaghetti" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uWa-j0-GBz">
@@ -722,9 +732,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tyv-UR-Ixg">
-                                <rect key="frame" x="0.0" y="20" width="104" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tyv-UR-Ixg">
+                                <rect key="frame" x="0.0" y="20" width="104" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="104" id="S1q-TI-vmF"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
                                 <state key="normal" title="back"/>
                                 <connections>
@@ -767,6 +779,10 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="tyv-UR-Ixg" firstAttribute="leading" secondItem="lUi-7c-Qjv" secondAttribute="leading" id="Tf9-fO-HLA"/>
+                            <constraint firstItem="tyv-UR-Ixg" firstAttribute="top" secondItem="lUi-7c-Qjv" secondAttribute="top" id="Z08-9I-Xe1"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="lUi-7c-Qjv"/>
                     </view>
                     <connections>
@@ -789,9 +805,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="14b-01-KuZ">
-                                <rect key="frame" x="0.0" y="20" width="104" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="14b-01-KuZ">
+                                <rect key="frame" x="0.0" y="20" width="104" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="104" id="3FT-Ik-dtU"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
                                 <state key="normal" title="back"/>
                                 <connections>
@@ -799,18 +817,18 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="01:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AZR-Hq-Yvp">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="217"/>
+                                <rect key="frame" x="0.0" y="37" width="414" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="NotoNastaliqUrdu" family="Noto Nastaliq Urdu" pointSize="102"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7egg.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="cve-8f-L9d">
-                                <rect key="frame" x="-145" y="189" width="705" height="418"/>
+                                <rect key="frame" x="0.0" y="189" width="414" height="418"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zQn-Li-Sxd">
-                                <rect key="frame" x="0.0" y="237" width="414" height="370"/>
+                                <rect key="frame" x="0.0" y="225" width="414" height="370"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Magnolia-Script" family="Magnolia Script" pointSize="56"/>
                                 <state key="normal" title="Start">
@@ -821,7 +839,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dkt-fu-2ao">
-                                <rect key="frame" x="58" y="618" width="299" height="59"/>
+                                <rect key="frame" x="102" y="615" width="211" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="33"/>
                                 <state key="normal" title="Cancel &amp; Back">
@@ -834,6 +852,10 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="14b-01-KuZ" firstAttribute="leading" secondItem="B8k-E5-83t" secondAttribute="leading" id="EzQ-cg-AUV"/>
+                            <constraint firstItem="14b-01-KuZ" firstAttribute="top" secondItem="B8k-E5-83t" secondAttribute="top" id="jIJ-ma-1X1"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="B8k-E5-83t"/>
                     </view>
                     <connections>
@@ -856,7 +878,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pasta1.png" translatesAutoresizingMaskIntoConstraints="NO" id="vPO-6d-ikO">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LongPasta.png" translatesAutoresizingMaskIntoConstraints="NO" id="vPO-6d-ikO">
                                 <rect key="frame" x="0.0" y="255" width="414" height="282"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -867,9 +889,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iah-vi-qbR">
-                                <rect key="frame" x="0.0" y="20" width="104" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iah-vi-qbR">
+                                <rect key="frame" x="0.0" y="20" width="104" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="104" id="dCG-1g-rhH"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
                                 <state key="normal" title="back"/>
                                 <connections>
@@ -901,18 +925,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MNs-Za-Noq">
-                                <rect key="frame" x="77" y="595" width="260" height="92"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="33"/>
-                                <state key="normal" title="Cancel &amp; Back">
-                                    <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="cancele" destination="J4B-zQ-HLy" eventType="touchUpInside" id="4Dg-Lh-TAk"/>
-                                    <segue destination="l9D-vV-4Sh" kind="presentation" id="yee-Hh-RWb"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="沸騰したたっぷりのお湯に塩と入れて" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mOG-6Q-F1y">
                                 <rect key="frame" x="34" y="564" width="347" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -927,8 +939,24 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MNs-Za-Noq">
+                                <rect key="frame" x="77" y="557" width="260" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="33"/>
+                                <state key="normal" title="Cancel &amp; Back">
+                                    <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancele" destination="J4B-zQ-HLy" eventType="touchUpInside" id="4Dg-Lh-TAk"/>
+                                    <segue destination="l9D-vV-4Sh" kind="presentation" id="yee-Hh-RWb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="iah-vi-qbR" firstAttribute="top" secondItem="71O-SW-tMe" secondAttribute="top" id="Mki-XY-QO9"/>
+                            <constraint firstItem="iah-vi-qbR" firstAttribute="leading" secondItem="71O-SW-tMe" secondAttribute="leading" id="eFQ-1d-ZhO"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="71O-SW-tMe"/>
                     </view>
                     <connections>
@@ -953,7 +981,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pasta1.png" translatesAutoresizingMaskIntoConstraints="NO" id="ua1-Pb-c4M">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LongPasta.png" translatesAutoresizingMaskIntoConstraints="NO" id="ua1-Pb-c4M">
                                 <rect key="frame" x="0.0" y="248" width="414" height="282"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -964,9 +992,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GW7-RT-sZb">
-                                <rect key="frame" x="0.0" y="20" width="104" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GW7-RT-sZb">
+                                <rect key="frame" x="0.0" y="20" width="104" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="104" id="BGV-e4-OBn"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
                                 <state key="normal" title="back"/>
                                 <connections>
@@ -1001,18 +1031,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pbu-GV-nUL">
-                                <rect key="frame" x="77" y="595" width="260" height="92"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="33"/>
-                                <state key="normal" title="Cancel &amp; Back">
-                                    <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="cancele" destination="HiF-WJ-A3l" eventType="touchUpInside" id="5nh-j6-nJL"/>
-                                    <segue destination="l9D-vV-4Sh" kind="presentation" id="mX1-hW-sfo"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m5y-X0-deX">
                                 <rect key="frame" x="0.0" y="340" width="414" height="190"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1024,8 +1042,24 @@
                                     <action selector="countDownWithSender:" destination="HiF-WJ-A3l" eventType="touchUpInside" id="Yem-L3-uRR"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pbu-GV-nUL">
+                                <rect key="frame" x="77" y="570" width="260" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="33"/>
+                                <state key="normal" title="Cancel &amp; Back">
+                                    <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancele" destination="HiF-WJ-A3l" eventType="touchUpInside" id="5nh-j6-nJL"/>
+                                    <segue destination="l9D-vV-4Sh" kind="presentation" id="mX1-hW-sfo"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="GW7-RT-sZb" firstAttribute="top" secondItem="5c7-vz-5Mf" secondAttribute="top" id="KOF-ND-5Mf"/>
+                            <constraint firstItem="GW7-RT-sZb" firstAttribute="leading" secondItem="5c7-vz-5Mf" secondAttribute="leading" id="ypD-wd-x3L"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="5c7-vz-5Mf"/>
                     </view>
                     <connections>
@@ -1057,9 +1091,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQH-Tc-NwG">
-                                <rect key="frame" x="0.0" y="20" width="104" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQH-Tc-NwG">
+                                <rect key="frame" x="0.0" y="20" width="104" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="104" id="IAY-uc-gWr"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
                                 <state key="normal" title="back"/>
                                 <connections>
@@ -1099,7 +1135,7 @@
                                     <segue destination="l9D-vV-4Sh" kind="presentation" id="6gN-MX-3Ea"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pasta1.png" translatesAutoresizingMaskIntoConstraints="NO" id="SDw-Zd-Xcs">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LongPasta.png" translatesAutoresizingMaskIntoConstraints="NO" id="SDw-Zd-Xcs">
                                 <rect key="frame" x="0.0" y="258" width="414" height="282"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1116,6 +1152,10 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="RQH-Tc-NwG" firstAttribute="top" secondItem="Nmx-Bv-cjp" secondAttribute="top" id="3NL-Xs-Q8b"/>
+                            <constraint firstItem="RQH-Tc-NwG" firstAttribute="leading" secondItem="Nmx-Bv-cjp" secondAttribute="leading" id="RNW-Rm-wHb"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Nmx-Bv-cjp"/>
                     </view>
                     <connections>
@@ -1197,9 +1237,11 @@
                                     <segue destination="MMr-XV-1hJ" kind="presentation" id="cP9-1x-wqh"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5bw-AM-xVR">
-                                <rect key="frame" x="0.0" y="6" width="104" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5bw-AM-xVR">
+                                <rect key="frame" x="0.0" y="0.0" width="104" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="104" id="kTD-8p-zn1"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
                                 <state key="normal" title="back">
                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1239,6 +1281,10 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="5bw-AM-xVR" firstAttribute="top" secondItem="v6I-s5-ZN3" secondAttribute="top" id="9NK-oy-HsM"/>
+                            <constraint firstItem="5bw-AM-xVR" firstAttribute="leading" secondItem="xBP-rT-IxU" secondAttribute="leading" id="SQ0-B9-Qsk"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="xBP-rT-IxU"/>
                     </view>
                 </viewController>
@@ -1276,9 +1322,11 @@
                                     <action selector="countDownWithSender:" destination="MMr-XV-1hJ" eventType="touchUpInside" id="IVN-jx-GeG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdN-rf-XHa">
-                                <rect key="frame" x="0.0" y="20" width="104" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdN-rf-XHa">
+                                <rect key="frame" x="0.0" y="20" width="104" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="104" id="XAZ-dY-RGI"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
                                 <state key="normal" title="back"/>
                                 <connections>
@@ -1292,18 +1340,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d66-1S-lZj">
-                                <rect key="frame" x="77" y="595" width="260" height="92"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="33"/>
-                                <state key="normal" title="Cancel &amp; Back">
-                                    <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="cancele" destination="MMr-XV-1hJ" eventType="touchUpInside" id="teJ-kb-2HC"/>
-                                    <segue destination="vxN-jc-j7E" kind="presentation" id="Wj5-oj-4te"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="沸騰したたっぷりのお湯に塩と入れて" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1MZ-gL-qeb">
                                 <rect key="frame" x="34" y="558" width="347" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1318,8 +1354,24 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d66-1S-lZj">
+                                <rect key="frame" x="77" y="557" width="260" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="33"/>
+                                <state key="normal" title="Cancel &amp; Back">
+                                    <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancele" destination="MMr-XV-1hJ" eventType="touchUpInside" id="teJ-kb-2HC"/>
+                                    <segue destination="vxN-jc-j7E" kind="presentation" id="Wj5-oj-4te"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="gdN-rf-XHa" firstAttribute="top" secondItem="qAY-IF-nQe" secondAttribute="top" id="qN2-sC-8SZ"/>
+                            <constraint firstItem="gdN-rf-XHa" firstAttribute="leading" secondItem="qAY-IF-nQe" secondAttribute="leading" id="zud-PQ-Y5i"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="qAY-IF-nQe"/>
                     </view>
                     <connections>
@@ -1355,9 +1407,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mM7-sY-sO3">
-                                <rect key="frame" x="0.0" y="20" width="104" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mM7-sY-sO3">
+                                <rect key="frame" x="0.0" y="20" width="104" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="104" id="Z35-rc-9e8"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
                                 <state key="normal" title="back"/>
                                 <connections>
@@ -1385,18 +1439,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OzD-KN-rXg">
-                                <rect key="frame" x="77" y="595" width="260" height="92"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="33"/>
-                                <state key="normal" title="Cancel &amp; Back">
-                                    <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="cancele" destination="NmS-PX-ehJ" eventType="touchUpInside" id="Yli-P8-nEq"/>
-                                    <segue destination="vxN-jc-j7E" kind="presentation" id="bgs-Y1-GGG"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rdJ-16-q6X">
                                 <rect key="frame" x="0.0" y="244" width="414" height="299"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1408,8 +1450,24 @@
                                     <action selector="countDownWithSender:" destination="NmS-PX-ehJ" eventType="touchUpInside" id="cef-dx-ftq"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OzD-KN-rXg">
+                                <rect key="frame" x="78" y="583" width="260" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="33"/>
+                                <state key="normal" title="Cancel &amp; Back">
+                                    <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancele" destination="NmS-PX-ehJ" eventType="touchUpInside" id="Yli-P8-nEq"/>
+                                    <segue destination="vxN-jc-j7E" kind="presentation" id="bgs-Y1-GGG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="mM7-sY-sO3" firstAttribute="leading" secondItem="ymj-aT-sqb" secondAttribute="leading" id="Vjc-rm-DH4"/>
+                            <constraint firstItem="mM7-sY-sO3" firstAttribute="top" secondItem="ymj-aT-sqb" secondAttribute="top" id="cfh-jW-VOi"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ymj-aT-sqb"/>
                     </view>
                     <connections>
@@ -1586,9 +1644,11 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zoh-6h-J3A">
-                                <rect key="frame" x="-3" y="0.0" width="260" height="92"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zoh-6h-J3A">
+                                <rect key="frame" x="0.0" y="0.0" width="260" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="260" id="sI1-wj-xWQ"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="33"/>
                                 <state key="normal" title="Cancel &amp; Back">
                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1609,9 +1669,11 @@
                                     <action selector="countDownWithSender:" destination="OzL-6M-BLR" eventType="touchUpInside" id="vb8-y5-vIn"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TXR-AA-cYF">
-                                <rect key="frame" x="0.0" y="0.0" width="104" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TXR-AA-cYF">
+                                <rect key="frame" x="0.0" y="0.0" width="104" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="104" id="xmK-1z-Ygc"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
                                 <state key="normal" title="back"/>
                                 <connections>
@@ -1631,6 +1693,12 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="TXR-AA-cYF" firstAttribute="top" secondItem="H2S-XP-UKm" secondAttribute="top" id="ICb-Z5-FBe"/>
+                            <constraint firstItem="TXR-AA-cYF" firstAttribute="leading" secondItem="IkD-uo-jxd" secondAttribute="leading" id="Vt3-t0-V9b"/>
+                            <constraint firstItem="Zoh-6h-J3A" firstAttribute="top" secondItem="H2S-XP-UKm" secondAttribute="top" id="faJ-Rv-XXL"/>
+                            <constraint firstItem="Zoh-6h-J3A" firstAttribute="leading" secondItem="H2S-XP-UKm" secondAttribute="leading" id="fg1-iw-lg5"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="IkD-uo-jxd"/>
                     </view>
                     <connections>
@@ -1697,18 +1765,22 @@
                                     <action selector="countDownWithSender:" destination="tPj-Sw-skK" eventType="touchUpInside" id="Fnz-AP-kao"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5xM-r6-ZbB">
-                                <rect key="frame" x="0.0" y="0.0" width="104" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5xM-r6-ZbB">
+                                <rect key="frame" x="0.0" y="0.0" width="104" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="104" id="w6q-Mk-fYb"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
                                 <state key="normal" title="back"/>
                                 <connections>
                                     <action selector="back" destination="tPj-Sw-skK" eventType="touchUpInside" id="UdW-Oj-e8P"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cpz-0p-M5b">
-                                <rect key="frame" x="0.0" y="0.0" width="260" height="92"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cpz-0p-M5b">
+                                <rect key="frame" x="0.0" y="0.0" width="260" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="260" id="rOD-cC-Yni"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="33"/>
                                 <state key="normal" title="Cancel &amp; Back">
                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1727,6 +1799,12 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="5xM-r6-ZbB" firstAttribute="top" secondItem="4S3-B2-9PF" secondAttribute="top" id="1xf-AC-GHL"/>
+                            <constraint firstItem="5xM-r6-ZbB" firstAttribute="leading" secondItem="dsa-hU-tFa" secondAttribute="leading" id="58v-KI-LwQ"/>
+                            <constraint firstItem="Cpz-0p-M5b" firstAttribute="top" secondItem="4S3-B2-9PF" secondAttribute="top" id="GtA-wj-4cs"/>
+                            <constraint firstItem="Cpz-0p-M5b" firstAttribute="leading" secondItem="dsa-hU-tFa" secondAttribute="leading" id="qpW-ua-JfB"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="dsa-hU-tFa"/>
                     </view>
                     <connections>
@@ -1786,9 +1864,11 @@
                                     <action selector="countDownWithSender:" destination="8xH-VS-H02" eventType="touchUpInside" id="2ZA-ae-JKc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yf3-uL-zkx">
-                                <rect key="frame" x="0.0" y="0.0" width="260" height="92"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yf3-uL-zkx">
+                                <rect key="frame" x="0.0" y="0.0" width="260" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="260" id="xMu-60-Jbs"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="33"/>
                                 <state key="normal" title="Cancel &amp; Back">
                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1804,9 +1884,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fu1-S6-bzQ">
-                                <rect key="frame" x="0.0" y="0.0" width="104" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fu1-S6-bzQ">
+                                <rect key="frame" x="0.0" y="0.0" width="104" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="104" id="jG8-Ek-Pzm"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
                                 <state key="normal" title="back"/>
                                 <connections>
@@ -1822,6 +1904,12 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Yf3-uL-zkx" firstAttribute="leading" secondItem="YSg-so-Bko" secondAttribute="leading" id="Eef-4o-6WP"/>
+                            <constraint firstItem="fu1-S6-bzQ" firstAttribute="leading" secondItem="YSg-so-Bko" secondAttribute="leading" id="Kvf-9T-yAf"/>
+                            <constraint firstItem="fu1-S6-bzQ" firstAttribute="top" secondItem="YdC-xv-9bc" secondAttribute="top" id="Y3O-OP-UlR"/>
+                            <constraint firstItem="Yf3-uL-zkx" firstAttribute="top" secondItem="YdC-xv-9bc" secondAttribute="top" id="YOA-5v-s6p"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="YSg-so-Bko"/>
                     </view>
                     <connections>
@@ -1847,7 +1935,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yCv-WR-npd">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yCv-WR-npd">
                                 <rect key="frame" x="0.0" y="208" width="414" height="447"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="03:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zeu-lt-G7r">
@@ -1953,7 +2041,7 @@
                                     <action selector="back" destination="t0c-oK-PUC" eventType="touchUpInside" id="3YC-Nj-LC2"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wBv-eI-Jt2">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wBv-eI-Jt2">
                                 <rect key="frame" x="0.0" y="200" width="414" height="455"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="maru.png" translatesAutoresizingMaskIntoConstraints="NO" id="16N-Su-bRR">
@@ -2047,7 +2135,7 @@
                                     <action selector="back" destination="lwc-Uh-2Q0" eventType="touchUpInside" id="2mj-Zt-5uN"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IHL-81-Fc0">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IHL-81-Fc0">
                                 <rect key="frame" x="0.0" y="200" width="414" height="455"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ofi-l5-vQU">
@@ -2129,7 +2217,7 @@
         <image name="7egg.PNG" width="184" height="184"/>
         <image name="9egg.PNG" width="184" height="184"/>
         <image name="Carrot1.png" width="1920" height="1278"/>
-        <image name="Pasta1.png" width="4000" height="2667"/>
+        <image name="LongPasta.png" width="4000" height="2667"/>
         <image name="blur.png" width="3600" height="2400"/>
         <image name="boiledegg.png" width="256" height="256"/>
         <image name="brokkori.png" width="256" height="256"/>
@@ -2137,17 +2225,17 @@
         <image name="fuji.png" width="4226" height="2988"/>
         <image name="llongpasta.png" width="256" height="256"/>
         <image name="maru.png" width="750" height="685"/>
+        <image name="meat.png" width="3872" height="2592"/>
         <image name="ninjin.png" width="256" height="256"/>
         <image name="penne.png" width="2077" height="1584"/>
         <image name="potato.png" width="256" height="256"/>
         <image name="potato1.png" width="3720" height="2604"/>
         <image name="shortpasta.png" width="256" height="256"/>
-        <image name="ミートソースパスタ.png" width="3872" height="2592"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="bgs-Y1-GGG"/>
-        <segue reference="vRu-JX-51t"/>
-        <segue reference="NlI-Ce-vIk"/>
+        <segue reference="EWn-2c-Yl9"/>
+        <segue reference="6gN-MX-3Ea"/>
+        <segue reference="RkQ-cv-Rj2"/>
         <segue reference="CRh-d4-Gxr"/>
         <segue reference="GyB-E5-160"/>
     </inferredMetricsTieBreakers>
