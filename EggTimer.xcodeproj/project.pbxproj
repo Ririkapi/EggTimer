@@ -9,29 +9,12 @@
 /* Begin PBXBuildFile section */
 		F0073D9B20AB381A00957DCC /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0073D9A20AB381A00957DCC /* UserNotifications.framework */; };
 		F0073D9D20AB4AFF00957DCC /* Magnolia Script.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F0073D9C20AB4AFF00957DCC /* Magnolia Script.pdf */; };
-		F0073D9F20AB4B6500957DCC /* Magnolia Script.otf in Resources */ = {isa = PBXBuildFile; fileRef = F0073D9E20AB4B6400957DCC /* Magnolia Script.otf */; };
-		F0073DA620AB5E9E00957DCC /* icon-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0073DA020AB5E9D00957DCC /* icon-2x.png */; };
-		F0073DA720AB5E9E00957DCC /* icon3.png in Resources */ = {isa = PBXBuildFile; fileRef = F0073DA120AB5E9D00957DCC /* icon3.png */; };
-		F0073DA820AB5E9E00957DCC /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = F0073DA220AB5E9E00957DCC /* icon2.png */; };
-		F0073DA920AB5E9E00957DCC /* icon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0073DA320AB5E9E00957DCC /* icon2x.png */; };
-		F0073DAA20AB5E9E00957DCC /* icon3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0073DA420AB5E9E00957DCC /* icon3x.png */; };
-		F0073DAB20AB5E9E00957DCC /* icon-3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0073DA520AB5E9E00957DCC /* icon-3x.png */; };
-		F0087AFA208DFCF400AA726A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0087AF9208DFCF400AA726A /* AppDelegate.swift */; };
 		F0087AFC208DFCF400AA726A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0087AFB208DFCF400AA726A /* ViewController.swift */; };
 		F0087AFF208DFCF400AA726A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0087AFD208DFCF400AA726A /* Main.storyboard */; };
 		F0087B01208DFCF400AA726A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0087B00208DFCF400AA726A /* Assets.xcassets */; };
-		F0087B04208DFCF400AA726A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0087B02208DFCF400AA726A /* LaunchScreen.storyboard */; };
 		F0087B3820921EF700AA726A /* EggViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0087B3720921EF700AA726A /* EggViewController.swift */; };
 		F00A8C7820A5F04900226C7A /* BroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00A8C7720A5F04900226C7A /* BroViewController.swift */; };
 		F00A8C7A20A5F1D000226C7A /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00A8C7920A5F1D000226C7A /* TimerViewController.swift */; };
-		F00BA4F820AC8CA100863605 /* 13egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F00BA4F020AC8C9B00863605 /* 13egg.PNG */; };
-		F00BA4F920AC8CA100863605 /* 10egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F00BA4F120AC8C9B00863605 /* 10egg.PNG */; };
-		F00BA4FA20AC8CA100863605 /* 11egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F00BA4F220AC8C9C00863605 /* 11egg.PNG */; };
-		F00BA4FB20AC8CA100863605 /* 7egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F00BA4F320AC8C9C00863605 /* 7egg.PNG */; };
-		F00BA4FC20AC8CA100863605 /* 12egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F00BA4F420AC8C9D00863605 /* 12egg.PNG */; };
-		F00BA4FD20AC8CA100863605 /* 14egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F00BA4F520AC8C9E00863605 /* 14egg.PNG */; };
-		F00BA4FE20AC8CA100863605 /* 8egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F00BA4F620AC8C9F00863605 /* 8egg.PNG */; };
-		F00BA4FF20AC8CA100863605 /* 9egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F00BA4F720AC8C9F00863605 /* 9egg.PNG */; };
 		F00BA5D820B4631700863605 /* meat.png in Resources */ = {isa = PBXBuildFile; fileRef = F00BA5D720B4631700863605 /* meat.png */; };
 		F00BA5DA20B4638300863605 /* LongPasta.png in Resources */ = {isa = PBXBuildFile; fileRef = F00BA5D920B4638200863605 /* LongPasta.png */; };
 		F00F8EC920A40D08001BEE4E /* fuji.png in Resources */ = {isa = PBXBuildFile; fileRef = F00F8EC820A40D08001BEE4E /* fuji.png */; };
@@ -54,12 +37,13 @@
 		F01257AF209ABAB50088D41C /* PennneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01257AE209ABAB50088D41C /* PennneViewController.swift */; };
 		F01257B1209ABAD10088D41C /* FarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01257B0209ABAD10088D41C /* FarViewController.swift */; };
 		F01257B3209ABAEF0088D41C /* FujiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01257B2209ABAEF0088D41C /* FujiViewController.swift */; };
-		F01257B5209ABCC20088D41C /* EchinosParkScript_PERSONAL_USE_ONLY.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F01257B4209ABCC10088D41C /* EchinosParkScript_PERSONAL_USE_ONLY.ttf */; };
 		F01257B7209ABCFC0088D41C /* Apples Script Demo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F01257B6209ABCFB0088D41C /* Apples Script Demo.ttf */; };
 		F01257B9209ABDBF0088D41C /* Magnolia Script.otf in Resources */ = {isa = PBXBuildFile; fileRef = F01257B8209ABDBE0088D41C /* Magnolia Script.otf */; };
 		F01258D020A32D060088D41C /* 目覚ましアラーム.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F01258CF20A32D060088D41C /* 目覚ましアラーム.mp3 */; };
 		F01258D620A33F190088D41C /* CarrotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01258D520A33F190088D41C /* CarrotViewController.swift */; };
 		F01258D820A3400E0088D41C /* Carrot1.png in Resources */ = {isa = PBXBuildFile; fileRef = F01258D720A3400E0088D41C /* Carrot1.png */; };
+		F040B4E420BD02260036C5E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F040B4E320BD02260036C5E3 /* AppDelegate.swift */; };
+		F0548F3320B7143000A09A45 /* 3.5inch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0548F3220B7143000A09A45 /* 3.5inch.storyboard */; };
 		F0A373F420A8A5D700D89876 /* llongpasta.png in Resources */ = {isa = PBXBuildFile; fileRef = F0A373ED20A8A5D400D89876 /* llongpasta.png */; };
 		F0A373F520A8A5D700D89876 /* medamayaki.png in Resources */ = {isa = PBXBuildFile; fileRef = F0A373EE20A8A5D500D89876 /* medamayaki.png */; };
 		F0A373F620A8A5D700D89876 /* boiledegg.png in Resources */ = {isa = PBXBuildFile; fileRef = F0A373EF20A8A5D500D89876 /* boiledegg.png */; };
@@ -78,6 +62,21 @@
 		F0A3742C20A9CCC900D89876 /* aka.png in Resources */ = {isa = PBXBuildFile; fileRef = F0A3742720A9CCC900D89876 /* aka.png */; };
 		F0A3742E20A9D64500D89876 /* aoo.png in Resources */ = {isa = PBXBuildFile; fileRef = F0A3742D20A9D64400D89876 /* aoo.png */; };
 		F0A3743220AAEC7000D89876 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F0A3743120AAEC7000D89876 /* icon.png */; };
+		F0CE94D920BD0C3B0079C50F /* 13egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F0CE94D120BD0C390079C50F /* 13egg.PNG */; };
+		F0CE94DA20BD0C3B0079C50F /* 10egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F0CE94D220BD0C390079C50F /* 10egg.PNG */; };
+		F0CE94DB20BD0C3B0079C50F /* 11egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F0CE94D320BD0C390079C50F /* 11egg.PNG */; };
+		F0CE94DC20BD0C3B0079C50F /* 7egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F0CE94D420BD0C390079C50F /* 7egg.PNG */; };
+		F0CE94DD20BD0C3B0079C50F /* 12egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F0CE94D520BD0C3A0079C50F /* 12egg.PNG */; };
+		F0CE94DE20BD0C3B0079C50F /* 14egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F0CE94D620BD0C3A0079C50F /* 14egg.PNG */; };
+		F0CE94DF20BD0C3B0079C50F /* 8egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F0CE94D720BD0C3A0079C50F /* 8egg.PNG */; };
+		F0CE94E020BD0C3B0079C50F /* 9egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F0CE94D820BD0C3B0079C50F /* 9egg.PNG */; };
+		F0CE94E920BD0DBA0079C50F /* StoryboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CE94E220BD0DBA0079C50F /* StoryboardHelper.swift */; };
+		F0CE94EA20BD0DBA0079C50F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F0CE94E320BD0DBA0079C50F /* README.md */; };
+		F0CE94EB20BD0DBA0079C50F /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0CE94E520BD0DBA0079C50F /* Default-736h@3x.png */; };
+		F0CE94EC20BD0DBA0079C50F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0CE94E620BD0DBA0079C50F /* Default-568h@2x.png */; };
+		F0CE94ED20BD0DBA0079C50F /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0CE94E720BD0DBA0079C50F /* Default-667h@2x.png */; };
+		F0CE94EE20BD0DBA0079C50F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F0CE94E820BD0DBA0079C50F /* .gitignore */; };
+		F0CE94F020BD0E700079C50F /* Magnolia Script.otf in Resources */ = {isa = PBXBuildFile; fileRef = F0CE94EF20BD0E6F0079C50F /* Magnolia Script.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,31 +84,14 @@
 		B06681AA802D3870A75BA635 /* Pods-EggTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EggTimer.release.xcconfig"; path = "Pods/Target Support Files/Pods-EggTimer/Pods-EggTimer.release.xcconfig"; sourceTree = "<group>"; };
 		F0073D9A20AB381A00957DCC /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		F0073D9C20AB4AFF00957DCC /* Magnolia Script.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Magnolia Script.pdf"; sourceTree = "<group>"; };
-		F0073D9E20AB4B6400957DCC /* Magnolia Script.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Magnolia Script.otf"; path = "../../../Downloads/magnolia-script (1)/Magnolia Script.otf"; sourceTree = "<group>"; };
-		F0073DA020AB5E9D00957DCC /* icon-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-2x.png"; sourceTree = "<group>"; };
-		F0073DA120AB5E9D00957DCC /* icon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon3.png; sourceTree = "<group>"; };
-		F0073DA220AB5E9E00957DCC /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
-		F0073DA320AB5E9E00957DCC /* icon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2x.png; sourceTree = "<group>"; };
-		F0073DA420AB5E9E00957DCC /* icon3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon3x.png; sourceTree = "<group>"; };
-		F0073DA520AB5E9E00957DCC /* icon-3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-3x.png"; sourceTree = "<group>"; };
 		F0087AF6208DFCF400AA726A /* EggTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0087AF9208DFCF400AA726A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0087AFB208DFCF400AA726A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F0087AFE208DFCF400AA726A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0087B00208DFCF400AA726A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F0087B03208DFCF400AA726A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0087B05208DFCF400AA726A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0087B3720921EF700AA726A /* EggViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggViewController.swift; sourceTree = "<group>"; };
 		F00A8C7720A5F04900226C7A /* BroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroViewController.swift; sourceTree = "<group>"; };
 		F00A8C7920A5F1D000226C7A /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
-		F00BA4F020AC8C9B00863605 /* 13egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 13egg.PNG; path = ../../../Downloads/13egg.PNG; sourceTree = "<group>"; };
-		F00BA4F120AC8C9B00863605 /* 10egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 10egg.PNG; path = ../../../Downloads/10egg.PNG; sourceTree = "<group>"; };
-		F00BA4F220AC8C9C00863605 /* 11egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 11egg.PNG; path = ../../../Downloads/11egg.PNG; sourceTree = "<group>"; };
-		F00BA4F320AC8C9C00863605 /* 7egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 7egg.PNG; path = ../../../Downloads/7egg.PNG; sourceTree = "<group>"; };
-		F00BA4F420AC8C9D00863605 /* 12egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 12egg.PNG; path = ../../../Downloads/12egg.PNG; sourceTree = "<group>"; };
-		F00BA4F520AC8C9E00863605 /* 14egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 14egg.PNG; path = ../../../Downloads/14egg.PNG; sourceTree = "<group>"; };
-		F00BA4F620AC8C9F00863605 /* 8egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8egg.PNG; path = ../../../Downloads/8egg.PNG; sourceTree = "<group>"; };
-		F00BA4F720AC8C9F00863605 /* 9egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 9egg.PNG; path = ../../../Downloads/9egg.PNG; sourceTree = "<group>"; };
 		F00BA5D720B4631700863605 /* meat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meat.png; sourceTree = "<group>"; };
 		F00BA5D920B4638200863605 /* LongPasta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LongPasta.png; sourceTree = "<group>"; };
 		F00F8EC820A40D08001BEE4E /* fuji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fuji.png; sourceTree = "<group>"; };
@@ -132,12 +114,13 @@
 		F01257AE209ABAB50088D41C /* PennneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennneViewController.swift; sourceTree = "<group>"; };
 		F01257B0209ABAD10088D41C /* FarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarViewController.swift; sourceTree = "<group>"; };
 		F01257B2209ABAEF0088D41C /* FujiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FujiViewController.swift; sourceTree = "<group>"; };
-		F01257B4209ABCC10088D41C /* EchinosParkScript_PERSONAL_USE_ONLY.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EchinosParkScript_PERSONAL_USE_ONLY.ttf; sourceTree = "<group>"; };
 		F01257B6209ABCFB0088D41C /* Apples Script Demo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apples Script Demo.ttf"; sourceTree = "<group>"; };
 		F01257B8209ABDBE0088D41C /* Magnolia Script.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Magnolia Script.otf"; sourceTree = "<group>"; };
 		F01258CF20A32D060088D41C /* 目覚ましアラーム.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "目覚ましアラーム.mp3"; path = "../../../Downloads/目覚ましアラーム.mp3"; sourceTree = "<group>"; };
 		F01258D520A33F190088D41C /* CarrotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotViewController.swift; sourceTree = "<group>"; };
 		F01258D720A3400E0088D41C /* Carrot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Carrot1.png; sourceTree = "<group>"; };
+		F040B4E320BD02260036C5E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../Downloads/追加課題/DMStoryboardHelper-master/AppDelegate.swift"; sourceTree = "<group>"; };
+		F0548F3220B7143000A09A45 /* 3.5inch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = 3.5inch.storyboard; sourceTree = "<group>"; };
 		F0A373ED20A8A5D400D89876 /* llongpasta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = llongpasta.png; sourceTree = "<group>"; };
 		F0A373EE20A8A5D500D89876 /* medamayaki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medamayaki.png; sourceTree = "<group>"; };
 		F0A373EF20A8A5D500D89876 /* boiledegg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boiledegg.png; sourceTree = "<group>"; };
@@ -156,6 +139,21 @@
 		F0A3742720A9CCC900D89876 /* aka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aka.png; sourceTree = "<group>"; };
 		F0A3742D20A9D64400D89876 /* aoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aoo.png; sourceTree = "<group>"; };
 		F0A3743120AAEC7000D89876 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../icon.png; sourceTree = "<group>"; };
+		F0CE94D120BD0C390079C50F /* 13egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 13egg.PNG; path = ../../../Downloads/13egg.PNG; sourceTree = "<group>"; };
+		F0CE94D220BD0C390079C50F /* 10egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 10egg.PNG; path = ../../../Downloads/10egg.PNG; sourceTree = "<group>"; };
+		F0CE94D320BD0C390079C50F /* 11egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 11egg.PNG; path = ../../../Downloads/11egg.PNG; sourceTree = "<group>"; };
+		F0CE94D420BD0C390079C50F /* 7egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 7egg.PNG; path = ../../../Downloads/7egg.PNG; sourceTree = "<group>"; };
+		F0CE94D520BD0C3A0079C50F /* 12egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 12egg.PNG; path = ../../../Downloads/12egg.PNG; sourceTree = "<group>"; };
+		F0CE94D620BD0C3A0079C50F /* 14egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 14egg.PNG; path = ../../../Downloads/14egg.PNG; sourceTree = "<group>"; };
+		F0CE94D720BD0C3A0079C50F /* 8egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8egg.PNG; path = ../../../Downloads/8egg.PNG; sourceTree = "<group>"; };
+		F0CE94D820BD0C3B0079C50F /* 9egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 9egg.PNG; path = ../../../Downloads/9egg.PNG; sourceTree = "<group>"; };
+		F0CE94E220BD0DBA0079C50F /* StoryboardHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardHelper.swift; sourceTree = "<group>"; };
+		F0CE94E320BD0DBA0079C50F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F0CE94E520BD0DBA0079C50F /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		F0CE94E620BD0DBA0079C50F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F0CE94E720BD0DBA0079C50F /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		F0CE94E820BD0DBA0079C50F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		F0CE94EF20BD0E6F0079C50F /* Magnolia Script.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Magnolia Script.otf"; path = "../../../Downloads/Magnolia_Script/Magnolia Script.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,35 +206,30 @@
 		F0087AF8208DFCF400AA726A /* EggTimer */ = {
 			isa = PBXGroup;
 			children = (
+				F0CE94E120BD0DBA0079C50F /* DMStoryboardHelper-master */,
 				F00BA5D720B4631700863605 /* meat.png */,
-				F00BA4F320AC8C9C00863605 /* 7egg.PNG */,
-				F00BA4F620AC8C9F00863605 /* 8egg.PNG */,
-				F00BA4F720AC8C9F00863605 /* 9egg.PNG */,
-				F00BA4F120AC8C9B00863605 /* 10egg.PNG */,
-				F00BA4F220AC8C9C00863605 /* 11egg.PNG */,
-				F00BA4F420AC8C9D00863605 /* 12egg.PNG */,
-				F00BA4F020AC8C9B00863605 /* 13egg.PNG */,
-				F00BA4F520AC8C9E00863605 /* 14egg.PNG */,
-				F0073DA020AB5E9D00957DCC /* icon-2x.png */,
-				F0073DA520AB5E9E00957DCC /* icon-3x.png */,
-				F0073DA220AB5E9E00957DCC /* icon2.png */,
-				F0073DA320AB5E9E00957DCC /* icon2x.png */,
-				F0073DA120AB5E9D00957DCC /* icon3.png */,
-				F0073DA420AB5E9E00957DCC /* icon3x.png */,
 				F0073D9C20AB4AFF00957DCC /* Magnolia Script.pdf */,
-				F0073D9E20AB4B6400957DCC /* Magnolia Script.otf */,
+				F0CE94EF20BD0E6F0079C50F /* Magnolia Script.otf */,
 				F0A3742720A9CCC900D89876 /* aka.png */,
 				F0A3742520A9CCC800D89876 /* ao.png */,
 				F0A3742D20A9D64400D89876 /* aoo.png */,
 				F0A3742320A9CCC800D89876 /* kiiro.png */,
 				F0A3742620A9CCC800D89876 /* midori.png */,
 				F0A3742420A9CCC800D89876 /* mizuiro.png */,
+				F0CE94D420BD0C390079C50F /* 7egg.PNG */,
+				F0CE94D720BD0C3A0079C50F /* 8egg.PNG */,
+				F0CE94D820BD0C3B0079C50F /* 9egg.PNG */,
+				F0CE94D220BD0C390079C50F /* 10egg.PNG */,
+				F0CE94D320BD0C390079C50F /* 11egg.PNG */,
+				F0CE94D520BD0C3A0079C50F /* 12egg.PNG */,
+				F0CE94D120BD0C390079C50F /* 13egg.PNG */,
+				F0CE94D620BD0C3A0079C50F /* 14egg.PNG */,
 				F0087AFD208DFCF400AA726A /* Main.storyboard */,
+				F0548F3220B7143000A09A45 /* 3.5inch.storyboard */,
 				F01258CF20A32D060088D41C /* 目覚ましアラーム.mp3 */,
 				F0A3743120AAEC7000D89876 /* icon.png */,
 				F01257B8209ABDBE0088D41C /* Magnolia Script.otf */,
 				F01257B6209ABCFB0088D41C /* Apples Script Demo.ttf */,
-				F01257B4209ABCC10088D41C /* EchinosParkScript_PERSONAL_USE_ONLY.ttf */,
 				F0A373EF20A8A5D500D89876 /* boiledegg.png */,
 				F0A373F220A8A5D600D89876 /* brokkori.png */,
 				F0A373ED20A8A5D400D89876 /* llongpasta.png */,
@@ -245,11 +238,10 @@
 				F0A373F320A8A5D700D89876 /* potato.png */,
 				F0A373F120A8A5D600D89876 /* shortpasta.png */,
 				F01257A0209457EA0088D41C /* Allura-Regular.otf */,
-				F0087AF9208DFCF400AA726A /* AppDelegate.swift */,
 				F0087AFB208DFCF400AA726A /* ViewController.swift */,
 				F012578A209424F30088D41C /* FoodViewController.swift */,
 				F0087B00208DFCF400AA726A /* Assets.xcassets */,
-				F0087B02208DFCF400AA726A /* LaunchScreen.storyboard */,
+				F040B4E320BD02260036C5E3 /* AppDelegate.swift */,
 				F0087B05208DFCF400AA726A /* Info.plist */,
 				F0087B3720921EF700AA726A /* EggViewController.swift */,
 				F012579220943FB30088D41C /* NineEggViewController.swift */,
@@ -281,6 +273,28 @@
 				F0A3742120A9CC2200D89876 /* TenViewController.swift */,
 			);
 			path = EggTimer;
+			sourceTree = "<group>";
+		};
+		F0CE94E120BD0DBA0079C50F /* DMStoryboardHelper-master */ = {
+			isa = PBXGroup;
+			children = (
+				F0CE94E220BD0DBA0079C50F /* StoryboardHelper.swift */,
+				F0CE94E320BD0DBA0079C50F /* README.md */,
+				F0CE94E420BD0DBA0079C50F /* Defaults */,
+				F0CE94E820BD0DBA0079C50F /* .gitignore */,
+			);
+			name = "DMStoryboardHelper-master";
+			path = "../../../Downloads/DMStoryboardHelper-master";
+			sourceTree = "<group>";
+		};
+		F0CE94E420BD0DBA0079C50F /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				F0CE94E520BD0DBA0079C50F /* Default-736h@3x.png */,
+				F0CE94E620BD0DBA0079C50F /* Default-568h@2x.png */,
+				F0CE94E720BD0DBA0079C50F /* Default-667h@2x.png */,
+			);
+			path = Defaults;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,53 +363,51 @@
 			buildActionMask = 2147483647;
 			files = (
 				F01257A1209457EA0088D41C /* Allura-Regular.otf in Resources */,
-				F0073DA620AB5E9E00957DCC /* icon-2x.png in Resources */,
+				F0CE94EC20BD0DBA0079C50F /* Default-568h@2x.png in Resources */,
+				F0CE94D920BD0C3B0079C50F /* 13egg.PNG in Resources */,
 				F00BA5D820B4631700863605 /* meat.png in Resources */,
-				F0073D9F20AB4B6500957DCC /* Magnolia Script.otf in Resources */,
+				F0CE94ED20BD0DBA0079C50F /* Default-667h@2x.png in Resources */,
 				F00F8ECB20A40D80001BEE4E /* far.png in Resources */,
 				F00BA5DA20B4638300863605 /* LongPasta.png in Resources */,
-				F00BA4FC20AC8CA100863605 /* 12egg.PNG in Resources */,
 				F0A373F720A8A5D700D89876 /* ninjin.png in Resources */,
 				F0A3742820A9CCC900D89876 /* kiiro.png in Resources */,
 				F0A3742C20A9CCC900D89876 /* aka.png in Resources */,
 				F0A373F920A8A5D700D89876 /* brokkori.png in Resources */,
 				F0A373FA20A8A5D700D89876 /* potato.png in Resources */,
-				F00BA4FB20AC8CA100863605 /* 7egg.PNG in Resources */,
 				F0073D9D20AB4AFF00957DCC /* Magnolia Script.pdf in Resources */,
 				F01258D020A32D060088D41C /* 目覚ましアラーム.mp3 in Resources */,
 				F00F8ED320A47773001BEE4E /* potato1.png in Resources */,
-				F0073DA920AB5E9E00957DCC /* icon2x.png in Resources */,
+				F0CE94EB20BD0DBA0079C50F /* Default-736h@3x.png in Resources */,
+				F0CE94DB20BD0C3B0079C50F /* 11egg.PNG in Resources */,
+				F0CE94DF20BD0C3B0079C50F /* 8egg.PNG in Resources */,
 				F01257B7209ABCFC0088D41C /* Apples Script Demo.ttf in Resources */,
-				F0087B04208DFCF400AA726A /* LaunchScreen.storyboard in Resources */,
+				F0CE94DA20BD0C3B0079C50F /* 10egg.PNG in Resources */,
 				F0A3742920A9CCC900D89876 /* mizuiro.png in Resources */,
+				F0CE94DC20BD0C3B0079C50F /* 7egg.PNG in Resources */,
 				F0A3742A20A9CCC900D89876 /* ao.png in Resources */,
+				F0CE94F020BD0E700079C50F /* Magnolia Script.otf in Resources */,
 				F0087B01208DFCF400AA726A /* Assets.xcassets in Resources */,
-				F00BA4FA20AC8CA100863605 /* 11egg.PNG in Resources */,
 				F00F8ED920A52654001BEE4E /* blur.png in Resources */,
-				F00BA4FF20AC8CA100863605 /* 9egg.PNG in Resources */,
-				F0073DA820AB5E9E00957DCC /* icon2.png in Resources */,
+				F0CE94DE20BD0C3B0079C50F /* 14egg.PNG in Resources */,
 				F01258D820A3400E0088D41C /* Carrot1.png in Resources */,
+				F0CE94EA20BD0DBA0079C50F /* README.md in Resources */,
+				F0CE94EE20BD0DBA0079C50F /* .gitignore in Resources */,
+				F0CE94E020BD0C3B0079C50F /* 9egg.PNG in Resources */,
+				F0CE94DD20BD0C3B0079C50F /* 12egg.PNG in Resources */,
 				F0A3742E20A9D64500D89876 /* aoo.png in Resources */,
-				F0073DA720AB5E9E00957DCC /* icon3.png in Resources */,
-				F01257B5209ABCC20088D41C /* EchinosParkScript_PERSONAL_USE_ONLY.ttf in Resources */,
 				F0A373F520A8A5D700D89876 /* medamayaki.png in Resources */,
 				F0A373F820A8A5D700D89876 /* shortpasta.png in Resources */,
-				F00BA4F920AC8CA100863605 /* 10egg.PNG in Resources */,
-				F0073DAA20AB5E9E00957DCC /* icon3x.png in Resources */,
-				F00BA4F820AC8CA100863605 /* 13egg.PNG in Resources */,
+				F0548F3320B7143000A09A45 /* 3.5inch.storyboard in Resources */,
 				F00F8ED120A41135001BEE4E /* 2penne.png in Resources */,
-				F00BA4FE20AC8CA100863605 /* 8egg.PNG in Resources */,
 				F00F8ECD20A40FCD001BEE4E /* penne.png in Resources */,
 				F0087AFF208DFCF400AA726A /* Main.storyboard in Resources */,
 				F01257B9209ABDBF0088D41C /* Magnolia Script.otf in Resources */,
-				F00BA4FD20AC8CA100863605 /* 14egg.PNG in Resources */,
 				F0A3742B20A9CCC900D89876 /* midori.png in Resources */,
 				F00F8EC920A40D08001BEE4E /* fuji.png in Resources */,
 				F0A373F420A8A5D700D89876 /* llongpasta.png in Resources */,
 				F0A3743220AAEC7000D89876 /* icon.png in Resources */,
 				F0A373F620A8A5D700D89876 /* boiledegg.png in Resources */,
 				F00F8ED720A47D48001BEE4E /* maru.png in Resources */,
-				F0073DAB20AB5E9E00957DCC /* icon-3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +440,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0087AFC208DFCF400AA726A /* ViewController.swift in Sources */,
+				F0CE94E920BD0DBA0079C50F /* StoryboardHelper.swift in Sources */,
 				F01257AB209AB5F20088D41C /* SpaViewController.swift in Sources */,
 				F01257A9209AB5CE0088D41C /* FedeViewController.swift in Sources */,
 				F012579720943FFD0088D41C /* FourteenEggViewController.swift in Sources */,
@@ -438,9 +451,9 @@
 				F0A3742020A9CC1000D89876 /* FiveViewController.swift in Sources */,
 				F012579320943FB30088D41C /* NineEggViewController.swift in Sources */,
 				F01257A7209AB18A0088D41C /* PastaViewController.swift in Sources */,
+				F040B4E420BD02260036C5E3 /* AppDelegate.swift in Sources */,
 				F01257AD209AB6240088D41C /* SpatwoViewController.swift in Sources */,
 				F00A8C7A20A5F1D000226C7A /* TimerViewController.swift in Sources */,
-				F0087AFA208DFCF400AA726A /* AppDelegate.swift in Sources */,
 				F00F8ED520A47B66001BEE4E /* PotatoViewController.swift in Sources */,
 				F00A8C7820A5F04900226C7A /* BroViewController.swift in Sources */,
 				F01258D620A33F190088D41C /* CarrotViewController.swift in Sources */,
@@ -461,14 +474,6 @@
 				F0087AFE208DFCF400AA726A /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F0087B02208DFCF400AA726A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F0087B03208DFCF400AA726A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -590,6 +595,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 2K446D59RQ;
 				INFOPLIST_FILE = EggTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.lifeistech.L10EggTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -609,6 +615,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 2K446D59RQ;
 				INFOPLIST_FILE = EggTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.lifeistech.L10EggTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
