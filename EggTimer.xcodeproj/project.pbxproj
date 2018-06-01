@@ -44,6 +44,12 @@
 		F01258D820A3400E0088D41C /* Carrot1.png in Resources */ = {isa = PBXBuildFile; fileRef = F01258D720A3400E0088D41C /* Carrot1.png */; };
 		F040B4E420BD02260036C5E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F040B4E320BD02260036C5E3 /* AppDelegate.swift */; };
 		F0548F3320B7143000A09A45 /* 3.5inch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0548F3220B7143000A09A45 /* 3.5inch.storyboard */; };
+		F078960120C14F7A006B8BC3 /* StoryboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07895FA20C14F79006B8BC3 /* StoryboardHelper.swift */; };
+		F078960220C14F7A006B8BC3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F07895FB20C14F79006B8BC3 /* README.md */; };
+		F078960320C14F7A006B8BC3 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F07895FD20C14F79006B8BC3 /* Default-736h@3x.png */; };
+		F078960420C14F7A006B8BC3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F07895FE20C14F79006B8BC3 /* Default-568h@2x.png */; };
+		F078960520C14F7A006B8BC3 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F07895FF20C14F79006B8BC3 /* Default-667h@2x.png */; };
+		F078960620C14F7A006B8BC3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F078960020C14F79006B8BC3 /* .gitignore */; };
 		F0A373F420A8A5D700D89876 /* llongpasta.png in Resources */ = {isa = PBXBuildFile; fileRef = F0A373ED20A8A5D400D89876 /* llongpasta.png */; };
 		F0A373F520A8A5D700D89876 /* medamayaki.png in Resources */ = {isa = PBXBuildFile; fileRef = F0A373EE20A8A5D500D89876 /* medamayaki.png */; };
 		F0A373F620A8A5D700D89876 /* boiledegg.png in Resources */ = {isa = PBXBuildFile; fileRef = F0A373EF20A8A5D500D89876 /* boiledegg.png */; };
@@ -70,12 +76,6 @@
 		F0CE94DE20BD0C3B0079C50F /* 14egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F0CE94D620BD0C3A0079C50F /* 14egg.PNG */; };
 		F0CE94DF20BD0C3B0079C50F /* 8egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F0CE94D720BD0C3A0079C50F /* 8egg.PNG */; };
 		F0CE94E020BD0C3B0079C50F /* 9egg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F0CE94D820BD0C3B0079C50F /* 9egg.PNG */; };
-		F0CE94E920BD0DBA0079C50F /* StoryboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CE94E220BD0DBA0079C50F /* StoryboardHelper.swift */; };
-		F0CE94EA20BD0DBA0079C50F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F0CE94E320BD0DBA0079C50F /* README.md */; };
-		F0CE94EB20BD0DBA0079C50F /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0CE94E520BD0DBA0079C50F /* Default-736h@3x.png */; };
-		F0CE94EC20BD0DBA0079C50F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0CE94E620BD0DBA0079C50F /* Default-568h@2x.png */; };
-		F0CE94ED20BD0DBA0079C50F /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0CE94E720BD0DBA0079C50F /* Default-667h@2x.png */; };
-		F0CE94EE20BD0DBA0079C50F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F0CE94E820BD0DBA0079C50F /* .gitignore */; };
 		F0CE94F020BD0E700079C50F /* Magnolia Script.otf in Resources */ = {isa = PBXBuildFile; fileRef = F0CE94EF20BD0E6F0079C50F /* Magnolia Script.otf */; };
 /* End PBXBuildFile section */
 
@@ -121,6 +121,12 @@
 		F01258D720A3400E0088D41C /* Carrot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Carrot1.png; sourceTree = "<group>"; };
 		F040B4E320BD02260036C5E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../Downloads/追加課題/DMStoryboardHelper-master/AppDelegate.swift"; sourceTree = "<group>"; };
 		F0548F3220B7143000A09A45 /* 3.5inch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = 3.5inch.storyboard; sourceTree = "<group>"; };
+		F07895FA20C14F79006B8BC3 /* StoryboardHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardHelper.swift; sourceTree = "<group>"; };
+		F07895FB20C14F79006B8BC3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F07895FD20C14F79006B8BC3 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		F07895FE20C14F79006B8BC3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F07895FF20C14F79006B8BC3 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		F078960020C14F79006B8BC3 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		F0A373ED20A8A5D400D89876 /* llongpasta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = llongpasta.png; sourceTree = "<group>"; };
 		F0A373EE20A8A5D500D89876 /* medamayaki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medamayaki.png; sourceTree = "<group>"; };
 		F0A373EF20A8A5D500D89876 /* boiledegg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boiledegg.png; sourceTree = "<group>"; };
@@ -147,12 +153,6 @@
 		F0CE94D620BD0C3A0079C50F /* 14egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 14egg.PNG; path = ../../../Downloads/14egg.PNG; sourceTree = "<group>"; };
 		F0CE94D720BD0C3A0079C50F /* 8egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8egg.PNG; path = ../../../Downloads/8egg.PNG; sourceTree = "<group>"; };
 		F0CE94D820BD0C3B0079C50F /* 9egg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 9egg.PNG; path = ../../../Downloads/9egg.PNG; sourceTree = "<group>"; };
-		F0CE94E220BD0DBA0079C50F /* StoryboardHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardHelper.swift; sourceTree = "<group>"; };
-		F0CE94E320BD0DBA0079C50F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F0CE94E520BD0DBA0079C50F /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
-		F0CE94E620BD0DBA0079C50F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		F0CE94E720BD0DBA0079C50F /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
-		F0CE94E820BD0DBA0079C50F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		F0CE94EF20BD0E6F0079C50F /* Magnolia Script.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Magnolia Script.otf"; path = "../../../Downloads/Magnolia_Script/Magnolia Script.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -206,7 +206,7 @@
 		F0087AF8208DFCF400AA726A /* EggTimer */ = {
 			isa = PBXGroup;
 			children = (
-				F0CE94E120BD0DBA0079C50F /* DMStoryboardHelper-master */,
+				F07895F920C14F79006B8BC3 /* DMStoryboardHelper-master */,
 				F00BA5D720B4631700863605 /* meat.png */,
 				F0073D9C20AB4AFF00957DCC /* Magnolia Script.pdf */,
 				F0CE94EF20BD0E6F0079C50F /* Magnolia Script.otf */,
@@ -275,24 +275,24 @@
 			path = EggTimer;
 			sourceTree = "<group>";
 		};
-		F0CE94E120BD0DBA0079C50F /* DMStoryboardHelper-master */ = {
+		F07895F920C14F79006B8BC3 /* DMStoryboardHelper-master */ = {
 			isa = PBXGroup;
 			children = (
-				F0CE94E220BD0DBA0079C50F /* StoryboardHelper.swift */,
-				F0CE94E320BD0DBA0079C50F /* README.md */,
-				F0CE94E420BD0DBA0079C50F /* Defaults */,
-				F0CE94E820BD0DBA0079C50F /* .gitignore */,
+				F07895FA20C14F79006B8BC3 /* StoryboardHelper.swift */,
+				F07895FB20C14F79006B8BC3 /* README.md */,
+				F07895FC20C14F79006B8BC3 /* Defaults */,
+				F078960020C14F79006B8BC3 /* .gitignore */,
 			);
 			name = "DMStoryboardHelper-master";
 			path = "../../../Downloads/DMStoryboardHelper-master";
 			sourceTree = "<group>";
 		};
-		F0CE94E420BD0DBA0079C50F /* Defaults */ = {
+		F07895FC20C14F79006B8BC3 /* Defaults */ = {
 			isa = PBXGroup;
 			children = (
-				F0CE94E520BD0DBA0079C50F /* Default-736h@3x.png */,
-				F0CE94E620BD0DBA0079C50F /* Default-568h@2x.png */,
-				F0CE94E720BD0DBA0079C50F /* Default-667h@2x.png */,
+				F07895FD20C14F79006B8BC3 /* Default-736h@3x.png */,
+				F07895FE20C14F79006B8BC3 /* Default-568h@2x.png */,
+				F07895FF20C14F79006B8BC3 /* Default-667h@2x.png */,
 			);
 			path = Defaults;
 			sourceTree = "<group>";
@@ -363,10 +363,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F01257A1209457EA0088D41C /* Allura-Regular.otf in Resources */,
-				F0CE94EC20BD0DBA0079C50F /* Default-568h@2x.png in Resources */,
+				F078960420C14F7A006B8BC3 /* Default-568h@2x.png in Resources */,
 				F0CE94D920BD0C3B0079C50F /* 13egg.PNG in Resources */,
 				F00BA5D820B4631700863605 /* meat.png in Resources */,
-				F0CE94ED20BD0DBA0079C50F /* Default-667h@2x.png in Resources */,
+				F078960520C14F7A006B8BC3 /* Default-667h@2x.png in Resources */,
 				F00F8ECB20A40D80001BEE4E /* far.png in Resources */,
 				F00BA5DA20B4638300863605 /* LongPasta.png in Resources */,
 				F0A373F720A8A5D700D89876 /* ninjin.png in Resources */,
@@ -377,7 +377,7 @@
 				F0073D9D20AB4AFF00957DCC /* Magnolia Script.pdf in Resources */,
 				F01258D020A32D060088D41C /* 目覚ましアラーム.mp3 in Resources */,
 				F00F8ED320A47773001BEE4E /* potato1.png in Resources */,
-				F0CE94EB20BD0DBA0079C50F /* Default-736h@3x.png in Resources */,
+				F078960320C14F7A006B8BC3 /* Default-736h@3x.png in Resources */,
 				F0CE94DB20BD0C3B0079C50F /* 11egg.PNG in Resources */,
 				F0CE94DF20BD0C3B0079C50F /* 8egg.PNG in Resources */,
 				F01257B7209ABCFC0088D41C /* Apples Script Demo.ttf in Resources */,
@@ -389,9 +389,9 @@
 				F0087B01208DFCF400AA726A /* Assets.xcassets in Resources */,
 				F00F8ED920A52654001BEE4E /* blur.png in Resources */,
 				F0CE94DE20BD0C3B0079C50F /* 14egg.PNG in Resources */,
+				F078960220C14F7A006B8BC3 /* README.md in Resources */,
+				F078960620C14F7A006B8BC3 /* .gitignore in Resources */,
 				F01258D820A3400E0088D41C /* Carrot1.png in Resources */,
-				F0CE94EA20BD0DBA0079C50F /* README.md in Resources */,
-				F0CE94EE20BD0DBA0079C50F /* .gitignore in Resources */,
 				F0CE94E020BD0C3B0079C50F /* 9egg.PNG in Resources */,
 				F0CE94DD20BD0C3B0079C50F /* 12egg.PNG in Resources */,
 				F0A3742E20A9D64500D89876 /* aoo.png in Resources */,
@@ -440,7 +440,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0087AFC208DFCF400AA726A /* ViewController.swift in Sources */,
-				F0CE94E920BD0DBA0079C50F /* StoryboardHelper.swift in Sources */,
+				F078960120C14F7A006B8BC3 /* StoryboardHelper.swift in Sources */,
 				F01257AB209AB5F20088D41C /* SpaViewController.swift in Sources */,
 				F01257A9209AB5CE0088D41C /* FedeViewController.swift in Sources */,
 				F012579720943FFD0088D41C /* FourteenEggViewController.swift in Sources */,
