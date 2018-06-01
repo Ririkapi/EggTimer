@@ -2001,10 +2001,11 @@
         <image name="shortpasta.png" width="256" height="256"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="lAu-Rz-Dih"/>
         <segue reference="vbO-YA-FJ6"/>
         <segue reference="vRu-JX-51t"/>
         <segue reference="vZl-hl-VKz"/>
-        <segue reference="bga-OM-Moe"/>
-        <segue reference="GyB-E5-160"/>
+        <segue reference="Ybu-QX-kIY"/>
+        <segue reference="Ix4-N9-5kx"/>
     </inferredMetricsTieBreakers>
 </document>
